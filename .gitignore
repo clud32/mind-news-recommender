@@ -1,0 +1,8 @@
+/.venv/
+__pycache__/
+*.py[cod]
+/.env
+/data/
+/checkpoints/
+/资料/*
+!/资料/来源与校验.tsv
