@@ -1,0 +1,89 @@
+{
+ "_meta": {
+  "kind": "CV",
+  "version": "CV-mind-final-v0.1",
+  "commit": "4ca18ff427a78708e75feda97f103b1baf459924",
+  "dirty": false,
+  "time": "2026-11-25T05:16:02+08:00",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "config": "configs/mind-final-v0.1.json",
+  "config_sha256": "ea007a3848f63a97d29dcef29cb45cd7de265a69f378f15fff9bd3ef82a1f4b0",
+  "seed": null,
+  "payload_sha256": "1a9627e8fe16d1463cf71c27ad4e8004641c4a49334d90da7364c0a692837e73",
+  "indicator_payload_sha256": "b57736b0e63cd475b17bb41a655fca344f22f477fa59117d23b8eae4e0a3a1b3"
+ },
+ "payload": [
+  {
+   "id": "C-small-dev-tower",
+   "scope": "small-dev official nDCG@10 and temporal Recall@100",
+   "statement_en": "Tower official nDCG is higher than 24-hour popularity, higher than recent-click TF-IDF. Tower temporal recall is lower than 24-hour popularity, lower than recent-click TF-IDF.",
+   "evidence": [
+    "I-official_tower_minus_popularity-estimate",
+    "I-official_tower_minus_popularity-low",
+    "I-official_tower_minus_popularity-high",
+    "I-official_tower_minus_recent_click-estimate",
+    "I-official_tower_minus_recent_click-low",
+    "I-official_tower_minus_recent_click-high",
+    "I-recall_tower_minus_popularity-estimate",
+    "I-recall_tower_minus_popularity-low",
+    "I-recall_tower_minus_popularity-high",
+    "I-recall_tower_minus_recent_click-estimate",
+    "I-recall_tower_minus_recent_click-low",
+    "I-recall_tower_minus_recent_click-high",
+    "I-denom-official",
+    "I-retrieval-tower-clicks-mean"
+   ]
+  },
+  {
+   "id": "C-small-dev-din",
+   "scope": "small-dev original mixed-label exposure lists",
+   "statement_en": "DIN official nDCG is inconclusive against 24-hour popularity, higher than recent-click TF-IDF, lower than the encoder tower.",
+   "evidence": [
+    "I-official_din_minus_popularity-estimate",
+    "I-official_din_minus_popularity-low",
+    "I-official_din_minus_popularity-high",
+    "I-official_din_minus_recent_click-estimate",
+    "I-official_din_minus_recent_click-low",
+    "I-official_din_minus_recent_click-high",
+    "I-official_din_minus_tower_s0-estimate",
+    "I-official_din_minus_tower_s0-low",
+    "I-official_din_minus_tower_s0-high",
+    "I-denom-official"
+   ]
+  },
+  {
+   "id": "C-small-dev-fixed-pool",
+   "scope": "small-dev fixed candidates; conditional and end-to-end scores",
+   "statement_en": "DIN conditional nDCG is inconclusive against the fixed tower order. DIN end-to-end nDCG is inconclusive against the fixed tower order.",
+   "evidence": [
+    "I-pool_din_minus_tower_s0-estimate",
+    "I-pool_din_minus_tower_s0-low",
+    "I-pool_din_minus_tower_s0-high",
+    "I-end_din_minus_tower_s0-estimate",
+    "I-end_din_minus_tower_s0-low",
+    "I-end_din_minus_tower_s0-high",
+    "I-denom-pool",
+    "I-denom-end",
+    "I-destination-outside",
+    "I-destination-missed",
+    "I-destination-recalled"
+   ]
+  },
+  {
+   "id": "C-small-dev-internal",
+   "scope": "CARD-008 and CARD-010 internal validation only",
+   "statement_en": "Index numbers use the internal static pool. Audit numbers quantify sensitivity to the recorded evaluation interventions on internal validation.",
+   "evidence": [
+    "I-internal-Flat-recall-mean",
+    "I-internal-HNSWFlat-overlap-mean",
+    "I-internal-IVFPQ-overlap-mean",
+    "I-internal-audit-split-mean",
+    "I-internal-audit-history-mean",
+    "I-internal-audit-random-mean",
+    "I-internal-audit-uniform-mean",
+    "I-internal-audit-weighted-mean"
+   ]
+  }
+ ]
+}

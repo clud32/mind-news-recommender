@@ -1,0 +1,82 @@
+{
+ "data": {
+  "version": "MIND-small-train-dev-v0.1",
+  "release": "Recommenders/MIND@2115068f457b577f93a268fffe22373e45727d89",
+  "equivalence": "Microsoft-linked release and Recommenders TSV equivalence pending validation (DEC-002)",
+  "manifest": "data/MANIFEST.sha256",
+  "manifest_sha256": "0934d7b79b9d24b710f81a383165228a48e102d2e0842e5d26552305116fa262",
+  "tsv": {
+   "data/train/behaviors.tsv": "a424547c8fa17c9ea4879c2110221c2b2f2709f4f7615ede0b0d8e4765158658",
+   "data/train/news.tsv": "cd49d7da275e9c405f627d75a0de9d4ec6ad43ff8a8db5d23a447591676e09d6",
+   "data/dev/behaviors.tsv": "b6c460e33b1a8693252ded6e626da7d3ccf78920eea2ec11889020bb7d8443ef",
+   "data/dev/news.tsv": "e5d144667558c449d16084fe6bfa01940c2f5d5785ea9f9110292bc3b94eb822"
+  },
+  "train_behaviors": "data/train/behaviors.tsv",
+  "train_news": "data/train/news.tsv",
+  "dev_behaviors": "data/dev/behaviors.tsv",
+  "dev_news": "data/dev/news.tsv"
+ },
+ "base_config": "configs/mind-two-tower-v0.1.json",
+ "din_config": "configs/mind-din-v0.1.json",
+ "baseline_config": "configs/mind-baselines-smoke-v0.1.json",
+ "artifacts": {
+  "checkpoints/card-004/s0/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+  "checkpoints/card-004/s0/model.pt": "f8f814af119164bc4ab3f2f20240505a676b998ff1e2a7a405537591ac3fcb75",
+  "checkpoints/card-004/s1/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+  "checkpoints/card-004/s1/model.pt": "0c4caad09dadcaa4691208309bd9c3c10dc64f06868de531c136bd3946f56512",
+  "checkpoints/card-004/s2/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+  "checkpoints/card-004/s2/model.pt": "6e342bd281c188a4242285ddd4a5c9806417bfecff97f7635e2c9d9d1bb47850",
+  "checkpoints/card-009/s0.pt": "965eead03030c59ae4ee0cb2610b884ef87a0bf678b5b82bdd5be2ca952044a5",
+  "checkpoints/card-009/s1.pt": "786c4a970306504492513ef2b9a48b490f1bdb22c8e7f8dfb2bc53bea8930daf",
+  "checkpoints/card-009/s2.pt": "7cfaebd8a4bb7571743d6d96c373950ba4c934fe1db05367a40f97d7e02f8453"
+ },
+ "references": {
+  "RV-data-profile": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51",
+  "RV-two-tower-s0": "59e0183f0216447131a732cf1349c7052ba9fec350af45b1eda4523b4535283b",
+  "RV-two-tower-s1": "4fe8eac67e2ec213f4de2afb35ca05b0a8bc2294425eaa05f3483c46c0e4e3e5",
+  "RV-two-tower-s2": "14617ab2c2adc3d5340c85fe1e98c625cd20d851615887cf6ea5c98782ec408b",
+  "RV-din-s0": "dce971b6eeee998c4a95e4614c039969c5ae54662b3cf8d9a9cc189e85f4aae0",
+  "RV-din-s1": "ab6eac5a54e98d542d4f83620567239b0b3037375a89787c8cd9c5e7967bd0e1",
+  "RV-din-s2": "a7a858cb5998a9d576abe6c3b65794d453f11e15f0e43ac38647cd2aaabfe0ca",
+  "RV-faiss-s0": "26a9509c9eb8afb8653ee93d6f55571b8a9bec3b04e548c23c39d22546dd249b",
+  "RV-faiss-s1": "7e735092f8b08547bbe7ce86751f67bef1e2fbc9ace65a0a12bdca88d1e78693",
+  "RV-faiss-s2": "4800161b1178e35ae723c8e1b8197a6f0e7cddad1696f8ccef2a440b61ab9baa",
+  "RV-evaluation-audit-s0": "e24a4d34704b2ebfd7125c1d624f2c015922502ccfda8856d7160b9491cf6989",
+  "RV-evaluation-audit-s1": "d3e874976b9c58a690ad124e2e290ecef46f9f4ed1fb84741a5ba381d412094c",
+  "RV-evaluation-audit-s2": "fdbe394961b82c10315b2ddb2db165d5efff561d22b0a431164c4b32bec1f1c3"
+ },
+ "scorer": {
+  "path": "资料/MIND-官方评测.py",
+  "sha256": "c6195008ed19ba7e68145069cffbdbcc0582ff0e983e2a5966095274043cc2ca",
+  "tolerance": 1e-08
+ },
+ "policy": {
+  "seeds": [
+   0,
+   1,
+   2
+  ],
+  "din_encoder_seed": 0,
+  "window_hours": 24,
+  "top_k": 100,
+  "cpu_threads": 4,
+  "score_batch": 16,
+  "time": "source-time, no timezone asserted; update the joint train/dev timestamp after all dev scoring",
+  "ties": "news ID lexical, then original candidate position",
+  "fit": "frozen tower vocabulary and original train-fold TF-IDF titles only"
+ },
+ "bootstrap": {
+  "seed": 1101,
+  "replicates": 2000,
+  "method": "95% percentile, paired user cluster draws with replacement; retain exposure or click weights; average seed contrasts per unit first"
+ },
+ "claims": {
+  "rule": "positive if both ends above zero; negative if both below zero; otherwise inconclusive",
+  "main": "official nDCG@10 and temporal Recall@100 against both baselines; DIN on fixed pool against the seed-0 tower"
+ },
+ "configs": {
+  "configs/mind-two-tower-v0.1.json": "16af7e1b2345f80d6bde7ee51e086c19bb9c1f57885e44b4d13237f893072db0",
+  "configs/mind-din-v0.1.json": "2d24a27e3d2b5d0f3bea8bd28cdca0ff0a0540da4b479c0cc39c46511ae809f2",
+  "configs/mind-baselines-smoke-v0.1.json": "667e1c8aaa331e964b9b0af11248cc8544c018f1266a60429ad9c3a5ddef75d9"
+ }
+}

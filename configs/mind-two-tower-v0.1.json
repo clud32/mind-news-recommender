@@ -1,0 +1,37 @@
+{
+  "news": "data/train/news.tsv",
+  "behaviors": "data/train/behaviors.tsv",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "split_rv": "RV-data-profile",
+  "baseline_rvs": [
+    "RV-g2-baselines-a",
+    "RV-g2-baselines-b"
+  ],
+  "boundary": "2019-11-13 20:36:26",
+  "train_count": 125572,
+  "validation_count": 31393,
+  "sample_minimum": 256,
+  "title_tokens": 32,
+  "abstract_tokens": 64,
+  "history_limit": 20,
+  "token_pattern": "\\w+",
+  "lowercase": true,
+  "oov": "omit",
+  "embedding_dim": 64,
+  "initialization": "standard_normal",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "epochs": 3,
+  "batch_size": 128,
+  "shuffle": "one permutation of click occurrences without replacement per epoch; keep final batch",
+  "negative_sampling": "in-batch columns with multiplicity; no logQ",
+  "top_k": 100,
+  "evaluation_batch": 128,
+  "seconds_per_seed": 7200
+}

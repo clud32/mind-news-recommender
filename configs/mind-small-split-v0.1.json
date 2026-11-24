@@ -1,0 +1,10 @@
+{
+  "news": "data/train/news.tsv",
+  "behaviors": "data/train/behaviors.tsv",
+  "train_fraction": [
+    4,
+    5
+  ],
+  "boundary_ties": "validation",
+  "output": "results/rv/RV-data-profile-001-r1.json"
+}

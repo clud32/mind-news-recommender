@@ -1,0 +1,28 @@
+{
+  "hard_config_sha256": "d124f99ba0af29e49b006a28fb70a7c6f2fa046f7978b0baa773f6aef8e187b7",
+  "hidden_dim": 32,
+  "reference_objects": [
+    "RV-two-tower-hard-s0",
+    "RV-two-tower-hard-s1",
+    "RV-two-tower-hard-s2"
+  ],
+  "checkpoint_root": "checkpoints/card-007",
+  "scratch_prefix": "scratch/card-007/RV-two-tower-attention-001-s",
+  "group_counts": {
+    "empty_history": [
+      801,
+      1240,
+      1238
+    ],
+    "short_history": [
+      14877,
+      20060,
+      20011
+    ],
+    "long_history": [
+      15715,
+      27188,
+      27087
+    ]
+  }
+}

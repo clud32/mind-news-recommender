@@ -1,0 +1,407 @@
+论文位置,数字或结论,来源编号,核对状态
+g3-results.tex：Official impression ranking,0.578,I-official-pop-auc,机核
+g3-results.tex：Official impression ranking,0.269,I-official-pop-mrr,机核
+g3-results.tex：Official impression ranking,0.291,I-official-pop-ndcg5,机核
+g3-results.tex：Official impression ranking,0.352,I-official-pop-ndcg10,机核
+g3-results.tex：Official impression ranking,0.522,I-official-recent-auc,机核
+g3-results.tex：Official impression ranking,0.237,I-official-recent-mrr,机核
+g3-results.tex：Official impression ranking,0.243,I-official-recent-ndcg5,机核
+g3-results.tex：Official impression ranking,0.306,I-official-recent-ndcg10,机核
+g3-results.tex：Official impression ranking,0.605,I-official-tower-auc-s0,机核
+g3-results.tex：Official impression ranking,0.605,I-official-tower-auc-s1,机核
+g3-results.tex：Official impression ranking,0.607,I-official-tower-auc-s2,机核
+g3-results.tex：Official impression ranking,0.605,I-official-tower-auc-mean,机核
+g3-results.tex：Official impression ranking,0.001,I-official-tower-auc-sd,机核
+g3-results.tex：Official impression ranking,0.281,I-official-tower-mrr-s0,机核
+g3-results.tex：Official impression ranking,0.283,I-official-tower-mrr-s1,机核
+g3-results.tex：Official impression ranking,0.285,I-official-tower-mrr-s2,机核
+g3-results.tex：Official impression ranking,0.283,I-official-tower-mrr-mean,机核
+g3-results.tex：Official impression ranking,0.002,I-official-tower-mrr-sd,机核
+g3-results.tex：Official impression ranking,0.301,I-official-tower-ndcg5-s0,机核
+g3-results.tex：Official impression ranking,0.303,I-official-tower-ndcg5-s1,机核
+g3-results.tex：Official impression ranking,0.307,I-official-tower-ndcg5-s2,机核
+g3-results.tex：Official impression ranking,0.304,I-official-tower-ndcg5-mean,机核
+g3-results.tex：Official impression ranking,0.003,I-official-tower-ndcg5-sd,机核
+g3-results.tex：Official impression ranking,0.364,I-official-tower-ndcg10-s0,机核
+g3-results.tex：Official impression ranking,0.365,I-official-tower-ndcg10-s1,机核
+g3-results.tex：Official impression ranking,0.367,I-official-tower-ndcg10-s2,机核
+g3-results.tex：Official impression ranking,0.365,I-official-tower-ndcg10-mean,机核
+g3-results.tex：Official impression ranking,0.002,I-official-tower-ndcg10-sd,机核
+g3-results.tex：Official impression ranking,0.588,I-official-din-auc-s0,机核
+g3-results.tex：Official impression ranking,0.586,I-official-din-auc-s1,机核
+g3-results.tex：Official impression ranking,0.593,I-official-din-auc-s2,机核
+g3-results.tex：Official impression ranking,0.589,I-official-din-auc-mean,机核
+g3-results.tex：Official impression ranking,0.004,I-official-din-auc-sd,机核
+g3-results.tex：Official impression ranking,0.268,I-official-din-mrr-s0,机核
+g3-results.tex：Official impression ranking,0.270,I-official-din-mrr-s1,机核
+g3-results.tex：Official impression ranking,0.273,I-official-din-mrr-s2,机核
+g3-results.tex：Official impression ranking,0.270,I-official-din-mrr-mean,机核
+g3-results.tex：Official impression ranking,0.002,I-official-din-mrr-sd,机核
+g3-results.tex：Official impression ranking,0.286,I-official-din-ndcg5-s0,机核
+g3-results.tex：Official impression ranking,0.286,I-official-din-ndcg5-s1,机核
+g3-results.tex：Official impression ranking,0.291,I-official-din-ndcg5-s2,机核
+g3-results.tex：Official impression ranking,0.288,I-official-din-ndcg5-mean,机核
+g3-results.tex：Official impression ranking,0.003,I-official-din-ndcg5-sd,机核
+g3-results.tex：Official impression ranking,0.351,I-official-din-ndcg10-s0,机核
+g3-results.tex：Official impression ranking,0.353,I-official-din-ndcg10-s1,机核
+g3-results.tex：Official impression ranking,0.357,I-official-din-ndcg10-s2,机核
+g3-results.tex：Official impression ranking,0.354,I-official-din-ndcg10-mean,机核
+g3-results.tex：Official impression ranking,0.003,I-official-din-ndcg10-sd,机核
+g3-results.tex：Temporal retrieval,111383,I-retrieval-pop-clicks,机核
+g3-results.tex：Temporal retrieval,111249,I-retrieval-pop-covered,机核
+g3-results.tex：Temporal retrieval,70109,I-retrieval-pop-hits,机核
+g3-results.tex：Temporal retrieval,0.629,I-retrieval-pop-recall,机核
+g3-results.tex：Temporal retrieval,0.999,I-retrieval-pop-coverage,机核
+g3-results.tex：Temporal retrieval,0.630,I-retrieval-pop-conditional_recall,机核
+g3-results.tex：Temporal retrieval,111383,I-retrieval-recent-clicks,机核
+g3-results.tex：Temporal retrieval,111249,I-retrieval-recent-covered,机核
+g3-results.tex：Temporal retrieval,3873,I-retrieval-recent-hits,机核
+g3-results.tex：Temporal retrieval,0.035,I-retrieval-recent-recall,机核
+g3-results.tex：Temporal retrieval,0.999,I-retrieval-recent-coverage,机核
+g3-results.tex：Temporal retrieval,0.035,I-retrieval-recent-conditional_recall,机核
+g3-results.tex：Temporal retrieval,111383,I-retrieval-tower-clicks-s0,机核
+g3-results.tex：Temporal retrieval,111383,I-retrieval-tower-clicks-s1,机核
+g3-results.tex：Temporal retrieval,111383,I-retrieval-tower-clicks-s2,机核
+g3-results.tex：Temporal retrieval,111383,I-retrieval-tower-clicks-mean,机核
+g3-results.tex：Temporal retrieval,0,I-retrieval-tower-clicks-sd,机核
+g3-results.tex：Temporal retrieval,111249,I-retrieval-tower-covered-s0,机核
+g3-results.tex：Temporal retrieval,111249,I-retrieval-tower-covered-s1,机核
+g3-results.tex：Temporal retrieval,111249,I-retrieval-tower-covered-s2,机核
+g3-results.tex：Temporal retrieval,111249,I-retrieval-tower-covered-mean,机核
+g3-results.tex：Temporal retrieval,0,I-retrieval-tower-covered-sd,机核
+g3-results.tex：Temporal retrieval,3232,I-retrieval-tower-hits-s0,机核
+g3-results.tex：Temporal retrieval,2560,I-retrieval-tower-hits-s1,机核
+g3-results.tex：Temporal retrieval,3755,I-retrieval-tower-hits-s2,机核
+g3-results.tex：Temporal retrieval,3182.333,I-retrieval-tower-hits-mean,机核
+g3-results.tex：Temporal retrieval,599.046,I-retrieval-tower-hits-sd,机核
+g3-results.tex：Temporal retrieval,0.029,I-retrieval-tower-recall-s0,机核
+g3-results.tex：Temporal retrieval,0.023,I-retrieval-tower-recall-s1,机核
+g3-results.tex：Temporal retrieval,0.034,I-retrieval-tower-recall-s2,机核
+g3-results.tex：Temporal retrieval,0.029,I-retrieval-tower-recall-mean,机核
+g3-results.tex：Temporal retrieval,0.005,I-retrieval-tower-recall-sd,机核
+g3-results.tex：Temporal retrieval,0.999,I-retrieval-tower-coverage-s0,机核
+g3-results.tex：Temporal retrieval,0.999,I-retrieval-tower-coverage-s1,机核
+g3-results.tex：Temporal retrieval,0.999,I-retrieval-tower-coverage-s2,机核
+g3-results.tex：Temporal retrieval,0.999,I-retrieval-tower-coverage-mean,机核
+g3-results.tex：Temporal retrieval,0,I-retrieval-tower-coverage-sd,机核
+g3-results.tex：Temporal retrieval,0.029,I-retrieval-tower-conditional_recall-s0,机核
+g3-results.tex：Temporal retrieval,0.023,I-retrieval-tower-conditional_recall-s1,机核
+g3-results.tex：Temporal retrieval,0.034,I-retrieval-tower-conditional_recall-s2,机核
+g3-results.tex：Temporal retrieval,0.029,I-retrieval-tower-conditional_recall-mean,机核
+g3-results.tex：Temporal retrieval,0.005,I-retrieval-tower-conditional_recall-sd,机核
+g3-results.tex：Fixed-pool ranking,0.117,I-rerank-tower-pool,机核
+g3-results.tex：Fixed-pool ranking,0.084,I-rerank-din-pool-s0,机核
+g3-results.tex：Fixed-pool ranking,0.119,I-rerank-din-pool-s1,机核
+g3-results.tex：Fixed-pool ranking,0.124,I-rerank-din-pool-s2,机核
+g3-results.tex：Fixed-pool ranking,0.109,I-rerank-din-pool-mean,机核
+g3-results.tex：Fixed-pool ranking,0.022,I-rerank-din-pool-sd,机核
+g3-results.tex：Fixed-pool ranking,0.004,I-rerank-tower-end,机核
+g3-results.tex：Fixed-pool ranking,0.003,I-rerank-din-end-s0,机核
+g3-results.tex：Fixed-pool ranking,0.004,I-rerank-din-end-s1,机核
+g3-results.tex：Fixed-pool ranking,0.004,I-rerank-din-end-s2,机核
+g3-results.tex：Fixed-pool ranking,0.004,I-rerank-din-end-mean,机核
+g3-results.tex：Fixed-pool ranking,0.001,I-rerank-din-end-sd,机核
+g3-results.tex：Same-sample paired differences,0.027,I-official-tower-minus-popularity-auc-s0,机核
+g3-results.tex：Same-sample paired differences,0.027,I-official-tower-minus-popularity-auc-s1,机核
+g3-results.tex：Same-sample paired differences,0.029,I-official-tower-minus-popularity-auc-s2,机核
+g3-results.tex：Same-sample paired differences,0.027,I-official-tower-minus-popularity-auc-mean,机核
+g3-results.tex：Same-sample paired differences,0.001,I-official-tower-minus-popularity-auc-sd,机核
+g3-results.tex：Same-sample paired differences,0.083,I-official-tower-minus-recent_click-auc-s0,机核
+g3-results.tex：Same-sample paired differences,0.083,I-official-tower-minus-recent_click-auc-s1,机核
+g3-results.tex：Same-sample paired differences,0.085,I-official-tower-minus-recent_click-auc-s2,机核
+g3-results.tex：Same-sample paired differences,0.084,I-official-tower-minus-recent_click-auc-mean,机核
+g3-results.tex：Same-sample paired differences,0.001,I-official-tower-minus-recent_click-auc-sd,机核
+g3-results.tex：Same-sample paired differences,0.012,I-official-tower-minus-popularity-mrr-s0,机核
+g3-results.tex：Same-sample paired differences,0.014,I-official-tower-minus-popularity-mrr-s1,机核
+g3-results.tex：Same-sample paired differences,0.015,I-official-tower-minus-popularity-mrr-s2,机核
+g3-results.tex：Same-sample paired differences,0.014,I-official-tower-minus-popularity-mrr-mean,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-tower-minus-popularity-mrr-sd,机核
+g3-results.tex：Same-sample paired differences,0.044,I-official-tower-minus-recent_click-mrr-s0,机核
+g3-results.tex：Same-sample paired differences,0.046,I-official-tower-minus-recent_click-mrr-s1,机核
+g3-results.tex：Same-sample paired differences,0.048,I-official-tower-minus-recent_click-mrr-s2,机核
+g3-results.tex：Same-sample paired differences,0.046,I-official-tower-minus-recent_click-mrr-mean,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-tower-minus-recent_click-mrr-sd,机核
+g3-results.tex：Same-sample paired differences,0.011,I-official-tower-minus-popularity-ndcg5-s0,机核
+g3-results.tex：Same-sample paired differences,0.013,I-official-tower-minus-popularity-ndcg5-s1,机核
+g3-results.tex：Same-sample paired differences,0.016,I-official-tower-minus-popularity-ndcg5-s2,机核
+g3-results.tex：Same-sample paired differences,0.013,I-official-tower-minus-popularity-ndcg5-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-tower-minus-popularity-ndcg5-sd,机核
+g3-results.tex：Same-sample paired differences,0.058,I-official-tower-minus-recent_click-ndcg5-s0,机核
+g3-results.tex：Same-sample paired differences,0.060,I-official-tower-minus-recent_click-ndcg5-s1,机核
+g3-results.tex：Same-sample paired differences,0.063,I-official-tower-minus-recent_click-ndcg5-s2,机核
+g3-results.tex：Same-sample paired differences,0.060,I-official-tower-minus-recent_click-ndcg5-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-tower-minus-recent_click-ndcg5-sd,机核
+g3-results.tex：Same-sample paired differences,0.012,I-official-tower-minus-popularity-ndcg10-s0,机核
+g3-results.tex：Same-sample paired differences,0.013,I-official-tower-minus-popularity-ndcg10-s1,机核
+g3-results.tex：Same-sample paired differences,0.015,I-official-tower-minus-popularity-ndcg10-s2,机核
+g3-results.tex：Same-sample paired differences,0.013,I-official-tower-minus-popularity-ndcg10-mean,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-tower-minus-popularity-ndcg10-sd,机核
+g3-results.tex：Same-sample paired differences,0.057,I-official-tower-minus-recent_click-ndcg10-s0,机核
+g3-results.tex：Same-sample paired differences,0.059,I-official-tower-minus-recent_click-ndcg10-s1,机核
+g3-results.tex：Same-sample paired differences,0.061,I-official-tower-minus-recent_click-ndcg10-s2,机核
+g3-results.tex：Same-sample paired differences,0.059,I-official-tower-minus-recent_click-ndcg10-mean,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-tower-minus-recent_click-ndcg10-sd,机核
+g3-results.tex：Same-sample paired differences,-0.600,I-retrieval-tower-minus-popularity-recall-s0,机核
+g3-results.tex：Same-sample paired differences,-0.606,I-retrieval-tower-minus-popularity-recall-s1,机核
+g3-results.tex：Same-sample paired differences,-0.596,I-retrieval-tower-minus-popularity-recall-s2,机核
+g3-results.tex：Same-sample paired differences,-0.601,I-retrieval-tower-minus-popularity-recall-mean,机核
+g3-results.tex：Same-sample paired differences,0.005,I-retrieval-tower-minus-popularity-recall-sd,机核
+g3-results.tex：Same-sample paired differences,-0.006,I-retrieval-tower-minus-recent_click-recall-s0,机核
+g3-results.tex：Same-sample paired differences,-0.012,I-retrieval-tower-minus-recent_click-recall-s1,机核
+g3-results.tex：Same-sample paired differences,-0.001,I-retrieval-tower-minus-recent_click-recall-s2,机核
+g3-results.tex：Same-sample paired differences,-0.006,I-retrieval-tower-minus-recent_click-recall-mean,机核
+g3-results.tex：Same-sample paired differences,0.005,I-retrieval-tower-minus-recent_click-recall-sd,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-popularity-coverage-s0,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-popularity-coverage-s1,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-popularity-coverage-s2,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-popularity-coverage-mean,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-popularity-coverage-sd,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-recent_click-coverage-s0,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-recent_click-coverage-s1,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-recent_click-coverage-s2,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-recent_click-coverage-mean,机核
+g3-results.tex：Same-sample paired differences,0,I-retrieval-tower-minus-recent_click-coverage-sd,机核
+g3-results.tex：Same-sample paired differences,-0.601,I-retrieval-tower-minus-popularity-conditional_recall-s0,机核
+g3-results.tex：Same-sample paired differences,-0.607,I-retrieval-tower-minus-popularity-conditional_recall-s1,机核
+g3-results.tex：Same-sample paired differences,-0.596,I-retrieval-tower-minus-popularity-conditional_recall-s2,机核
+g3-results.tex：Same-sample paired differences,-0.602,I-retrieval-tower-minus-popularity-conditional_recall-mean,机核
+g3-results.tex：Same-sample paired differences,0.005,I-retrieval-tower-minus-popularity-conditional_recall-sd,机核
+g3-results.tex：Same-sample paired differences,-0.006,I-retrieval-tower-minus-recent_click-conditional_recall-s0,机核
+g3-results.tex：Same-sample paired differences,-0.012,I-retrieval-tower-minus-recent_click-conditional_recall-s1,机核
+g3-results.tex：Same-sample paired differences,-0.001,I-retrieval-tower-minus-recent_click-conditional_recall-s2,机核
+g3-results.tex：Same-sample paired differences,-0.006,I-retrieval-tower-minus-recent_click-conditional_recall-mean,机核
+g3-results.tex：Same-sample paired differences,0.005,I-retrieval-tower-minus-recent_click-conditional_recall-sd,机核
+g3-results.tex：Same-sample paired differences,0.010,I-official-din-minus-popularity-auc-s0,机核
+g3-results.tex：Same-sample paired differences,0.008,I-official-din-minus-popularity-auc-s1,机核
+g3-results.tex：Same-sample paired differences,0.015,I-official-din-minus-popularity-auc-s2,机核
+g3-results.tex：Same-sample paired differences,0.011,I-official-din-minus-popularity-auc-mean,机核
+g3-results.tex：Same-sample paired differences,0.004,I-official-din-minus-popularity-auc-sd,机核
+g3-results.tex：Same-sample paired differences,0.066,I-official-din-minus-recent_click-auc-s0,机核
+g3-results.tex：Same-sample paired differences,0.064,I-official-din-minus-recent_click-auc-s1,机核
+g3-results.tex：Same-sample paired differences,0.071,I-official-din-minus-recent_click-auc-s2,机核
+g3-results.tex：Same-sample paired differences,0.067,I-official-din-minus-recent_click-auc-mean,机核
+g3-results.tex：Same-sample paired differences,0.004,I-official-din-minus-recent_click-auc-sd,机核
+g3-results.tex：Same-sample paired differences,-0.017,I-official-din-minus-tower-auc-s0,机核
+g3-results.tex：Same-sample paired differences,-0.019,I-official-din-minus-tower-auc-s1,机核
+g3-results.tex：Same-sample paired differences,-0.011,I-official-din-minus-tower-auc-s2,机核
+g3-results.tex：Same-sample paired differences,-0.016,I-official-din-minus-tower-auc-mean,机核
+g3-results.tex：Same-sample paired differences,0.004,I-official-din-minus-tower-auc-sd,机核
+g3-results.tex：Same-sample paired differences,-0.001,I-official-din-minus-popularity-mrr-s0,机核
+g3-results.tex：Same-sample paired differences,0.001,I-official-din-minus-popularity-mrr-s1,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-din-minus-popularity-mrr-s2,机核
+g3-results.tex：Same-sample paired differences,0.001,I-official-din-minus-popularity-mrr-mean,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-din-minus-popularity-mrr-sd,机核
+g3-results.tex：Same-sample paired differences,0.031,I-official-din-minus-recent_click-mrr-s0,机核
+g3-results.tex：Same-sample paired differences,0.033,I-official-din-minus-recent_click-mrr-s1,机核
+g3-results.tex：Same-sample paired differences,0.036,I-official-din-minus-recent_click-mrr-s2,机核
+g3-results.tex：Same-sample paired differences,0.033,I-official-din-minus-recent_click-mrr-mean,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-din-minus-recent_click-mrr-sd,机核
+g3-results.tex：Same-sample paired differences,-0.013,I-official-din-minus-tower-mrr-s0,机核
+g3-results.tex：Same-sample paired differences,-0.011,I-official-din-minus-tower-mrr-s1,机核
+g3-results.tex：Same-sample paired differences,-0.009,I-official-din-minus-tower-mrr-s2,机核
+g3-results.tex：Same-sample paired differences,-0.011,I-official-din-minus-tower-mrr-mean,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-din-minus-tower-mrr-sd,机核
+g3-results.tex：Same-sample paired differences,-0.005,I-official-din-minus-popularity-ndcg5-s0,机核
+g3-results.tex：Same-sample paired differences,-0.004,I-official-din-minus-popularity-ndcg5-s1,机核
+g3-results.tex：Same-sample paired differences,0.000,I-official-din-minus-popularity-ndcg5-s2,机核
+g3-results.tex：Same-sample paired differences,-0.003,I-official-din-minus-popularity-ndcg5-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-din-minus-popularity-ndcg5-sd,机核
+g3-results.tex：Same-sample paired differences,0.042,I-official-din-minus-recent_click-ndcg5-s0,机核
+g3-results.tex：Same-sample paired differences,0.043,I-official-din-minus-recent_click-ndcg5-s1,机核
+g3-results.tex：Same-sample paired differences,0.047,I-official-din-minus-recent_click-ndcg5-s2,机核
+g3-results.tex：Same-sample paired differences,0.044,I-official-din-minus-recent_click-ndcg5-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-din-minus-recent_click-ndcg5-sd,机核
+g3-results.tex：Same-sample paired differences,-0.016,I-official-din-minus-tower-ndcg5-s0,机核
+g3-results.tex：Same-sample paired differences,-0.015,I-official-din-minus-tower-ndcg5-s1,机核
+g3-results.tex：Same-sample paired differences,-0.011,I-official-din-minus-tower-ndcg5-s2,机核
+g3-results.tex：Same-sample paired differences,-0.014,I-official-din-minus-tower-ndcg5-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-din-minus-tower-ndcg5-sd,机核
+g3-results.tex：Same-sample paired differences,-0.001,I-official-din-minus-popularity-ndcg10-s0,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-din-minus-popularity-ndcg10-s1,机核
+g3-results.tex：Same-sample paired differences,0.005,I-official-din-minus-popularity-ndcg10-s2,机核
+g3-results.tex：Same-sample paired differences,0.002,I-official-din-minus-popularity-ndcg10-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-din-minus-popularity-ndcg10-sd,机核
+g3-results.tex：Same-sample paired differences,0.045,I-official-din-minus-recent_click-ndcg10-s0,机核
+g3-results.tex：Same-sample paired differences,0.047,I-official-din-minus-recent_click-ndcg10-s1,机核
+g3-results.tex：Same-sample paired differences,0.050,I-official-din-minus-recent_click-ndcg10-s2,机核
+g3-results.tex：Same-sample paired differences,0.047,I-official-din-minus-recent_click-ndcg10-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-din-minus-recent_click-ndcg10-sd,机核
+g3-results.tex：Same-sample paired differences,-0.013,I-official-din-minus-tower-ndcg10-s0,机核
+g3-results.tex：Same-sample paired differences,-0.010,I-official-din-minus-tower-ndcg10-s1,机核
+g3-results.tex：Same-sample paired differences,-0.007,I-official-din-minus-tower-ndcg10-s2,机核
+g3-results.tex：Same-sample paired differences,-0.010,I-official-din-minus-tower-ndcg10-mean,机核
+g3-results.tex：Same-sample paired differences,0.003,I-official-din-minus-tower-ndcg10-sd,机核
+g3-results.tex：Same-sample paired differences,-0.033,I-rerank-din-minus-tower-pool-s0,机核
+g3-results.tex：Same-sample paired differences,0.002,I-rerank-din-minus-tower-pool-s1,机核
+g3-results.tex：Same-sample paired differences,0.007,I-rerank-din-minus-tower-pool-s2,机核
+g3-results.tex：Same-sample paired differences,-0.008,I-rerank-din-minus-tower-pool-mean,机核
+g3-results.tex：Same-sample paired differences,0.022,I-rerank-din-minus-tower-pool-sd,机核
+g3-results.tex：Same-sample paired differences,-0.001,I-rerank-din-minus-tower-end-s0,机核
+g3-results.tex：Same-sample paired differences,0.000,I-rerank-din-minus-tower-end-s1,机核
+g3-results.tex：Same-sample paired differences,0.000,I-rerank-din-minus-tower-end-s2,机核
+g3-results.tex：Same-sample paired differences,-0.000,I-rerank-din-minus-tower-end-mean,机核
+g3-results.tex：Same-sample paired differences,0.001,I-rerank-din-minus-tower-end-sd,机核
+g3-results.tex：Evaluation denominators and recall destinations,3064,I-denom-pool,机核
+g3-results.tex：Evaluation denominators and recall destinations,73152,I-denom-end,机核
+g3-results.tex：Evaluation denominators and recall destinations,73152,I-official-total,机核
+g3-results.tex：Evaluation denominators and recall destinations,73152,I-denom-official,机核
+g3-results.tex：Evaluation denominators and recall destinations,73152,I-denom-microsoft,机核
+g3-results.tex：Evaluation denominators and recall destinations,0,I-excluded-empty_labels,机核
+g3-results.tex：Evaluation denominators and recall destinations,0,I-excluded-all_positive,机核
+g3-results.tex：Evaluation denominators and recall destinations,0,I-excluded-all_negative,机核
+g3-results.tex：Evaluation denominators and recall destinations,134,I-destination-outside,机核
+g3-results.tex：Evaluation denominators and recall destinations,108017,I-destination-missed,机核
+g3-results.tex：Evaluation denominators and recall destinations,3232,I-destination-recalled,机核
+g3-results.tex：Evaluation denominators and recall destinations,0.000000000000,I-error-AUC,机核
+g3-results.tex：Evaluation denominators and recall destinations,0.000000000000,I-error-MRR,机核
+g3-results.tex：Evaluation denominators and recall destinations,0.000000000000,I-error-nDCG5,机核
+g3-results.tex：Evaluation denominators and recall destinations,0.000000000000,I-error-nDCG10,机核
+g3-results.tex：User-cluster bootstrap,-0.008,I-pool_din_minus_tower_s0-estimate,机核
+g3-results.tex：User-cluster bootstrap,-0.017,I-pool_din_minus_tower_s0-low,机核
+g3-results.tex：User-cluster bootstrap,0.002,I-pool_din_minus_tower_s0-high,机核
+g3-results.tex：User-cluster bootstrap,2941,I-pool_din_minus_tower_s0-users,机核
+g3-results.tex：User-cluster bootstrap,3064,I-pool_din_minus_tower_s0-denominator,机核
+g3-results.tex：User-cluster bootstrap,-0.000,I-end_din_minus_tower_s0-estimate,机核
+g3-results.tex：User-cluster bootstrap,-0.000,I-end_din_minus_tower_s0-low,机核
+g3-results.tex：User-cluster bootstrap,0.000,I-end_din_minus_tower_s0-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-end_din_minus_tower_s0-users,机核
+g3-results.tex：User-cluster bootstrap,73152,I-end_din_minus_tower_s0-denominator,机核
+g3-results.tex：User-cluster bootstrap,0.013,I-official_tower_minus_popularity-estimate,机核
+g3-results.tex：User-cluster bootstrap,0.011,I-official_tower_minus_popularity-low,机核
+g3-results.tex：User-cluster bootstrap,0.016,I-official_tower_minus_popularity-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-official_tower_minus_popularity-users,机核
+g3-results.tex：User-cluster bootstrap,73152,I-official_tower_minus_popularity-denominator,机核
+g3-results.tex：User-cluster bootstrap,0.002,I-official_din_minus_popularity-estimate,机核
+g3-results.tex：User-cluster bootstrap,-0.001,I-official_din_minus_popularity-low,机核
+g3-results.tex：User-cluster bootstrap,0.004,I-official_din_minus_popularity-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-official_din_minus_popularity-users,机核
+g3-results.tex：User-cluster bootstrap,73152,I-official_din_minus_popularity-denominator,机核
+g3-results.tex：User-cluster bootstrap,-0.601,I-recall_tower_minus_popularity-estimate,机核
+g3-results.tex：User-cluster bootstrap,-0.604,I-recall_tower_minus_popularity-low,机核
+g3-results.tex：User-cluster bootstrap,-0.597,I-recall_tower_minus_popularity-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-recall_tower_minus_popularity-users,机核
+g3-results.tex：User-cluster bootstrap,111383,I-recall_tower_minus_popularity-denominator,机核
+g3-results.tex：User-cluster bootstrap,0.059,I-official_tower_minus_recent_click-estimate,机核
+g3-results.tex：User-cluster bootstrap,0.057,I-official_tower_minus_recent_click-low,机核
+g3-results.tex：User-cluster bootstrap,0.061,I-official_tower_minus_recent_click-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-official_tower_minus_recent_click-users,机核
+g3-results.tex：User-cluster bootstrap,73152,I-official_tower_minus_recent_click-denominator,机核
+g3-results.tex：User-cluster bootstrap,0.047,I-official_din_minus_recent_click-estimate,机核
+g3-results.tex：User-cluster bootstrap,0.045,I-official_din_minus_recent_click-low,机核
+g3-results.tex：User-cluster bootstrap,0.050,I-official_din_minus_recent_click-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-official_din_minus_recent_click-users,机核
+g3-results.tex：User-cluster bootstrap,73152,I-official_din_minus_recent_click-denominator,机核
+g3-results.tex：User-cluster bootstrap,-0.006,I-recall_tower_minus_recent_click-estimate,机核
+g3-results.tex：User-cluster bootstrap,-0.008,I-recall_tower_minus_recent_click-low,机核
+g3-results.tex：User-cluster bootstrap,-0.005,I-recall_tower_minus_recent_click-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-recall_tower_minus_recent_click-users,机核
+g3-results.tex：User-cluster bootstrap,111383,I-recall_tower_minus_recent_click-denominator,机核
+g3-results.tex：User-cluster bootstrap,-0.010,I-official_din_minus_tower_s0-estimate,机核
+g3-results.tex：User-cluster bootstrap,-0.012,I-official_din_minus_tower_s0-low,机核
+g3-results.tex：User-cluster bootstrap,-0.008,I-official_din_minus_tower_s0-high,机核
+g3-results.tex：User-cluster bootstrap,50000,I-official_din_minus_tower_s0-users,机核
+g3-results.tex：User-cluster bootstrap,73152,I-official_din_minus_tower_s0-denominator,机核
+g3-results.tex：Internal time-validation references,1,I-internal-Flat-overlap-s0,机核
+g3-results.tex：Internal time-validation references,1,I-internal-Flat-overlap-s1,机核
+g3-results.tex：Internal time-validation references,1,I-internal-Flat-overlap-s2,机核
+g3-results.tex：Internal time-validation references,1,I-internal-Flat-overlap-mean,机核
+g3-results.tex：Internal time-validation references,0,I-internal-Flat-overlap-sd,机核
+g3-results.tex：Internal time-validation references,0.032,I-internal-Flat-recall-s0,机核
+g3-results.tex：Internal time-validation references,0.032,I-internal-Flat-recall-s1,机核
+g3-results.tex：Internal time-validation references,0.032,I-internal-Flat-recall-s2,机核
+g3-results.tex：Internal time-validation references,0.032,I-internal-Flat-recall-mean,机核
+g3-results.tex：Internal time-validation references,0,I-internal-Flat-recall-sd,机核
+g3-results.tex：Internal time-validation references,127.400,I-internal-Flat-p50-s0,机核
+g3-results.tex：Internal time-validation references,128.650,I-internal-Flat-p50-s1,机核
+g3-results.tex：Internal time-validation references,145.400,I-internal-Flat-p50-s2,机核
+g3-results.tex：Internal time-validation references,133.817,I-internal-Flat-p50-mean,机核
+g3-results.tex：Internal time-validation references,10.051,I-internal-Flat-p50-sd,机核
+g3-results.tex：Internal time-validation references,158.585,I-internal-Flat-p95-s0,机核
+g3-results.tex：Internal time-validation references,206.080,I-internal-Flat-p95-s1,机核
+g3-results.tex：Internal time-validation references,178.285,I-internal-Flat-p95-s2,机核
+g3-results.tex：Internal time-validation references,180.983,I-internal-Flat-p95-mean,机核
+g3-results.tex：Internal time-validation references,23.862,I-internal-Flat-p95-sd,机核
+g3-results.tex：Internal time-validation references,4309037,I-internal-Flat-size-s0,机核
+g3-results.tex：Internal time-validation references,4309037,I-internal-Flat-size-s1,机核
+g3-results.tex：Internal time-validation references,4309037,I-internal-Flat-size-s2,机核
+g3-results.tex：Internal time-validation references,4309037,I-internal-Flat-size-mean,机核
+g3-results.tex：Internal time-validation references,0,I-internal-Flat-size-sd,机核
+g3-results.tex：Internal time-validation references,0.878,I-internal-HNSWFlat-overlap-s0,机核
+g3-results.tex：Internal time-validation references,0.866,I-internal-HNSWFlat-overlap-s1,机核
+g3-results.tex：Internal time-validation references,0.878,I-internal-HNSWFlat-overlap-s2,机核
+g3-results.tex：Internal time-validation references,0.874,I-internal-HNSWFlat-overlap-mean,机核
+g3-results.tex：Internal time-validation references,0.007,I-internal-HNSWFlat-overlap-sd,机核
+g3-results.tex：Internal time-validation references,0.031,I-internal-HNSWFlat-recall-s0,机核
+g3-results.tex：Internal time-validation references,0.030,I-internal-HNSWFlat-recall-s1,机核
+g3-results.tex：Internal time-validation references,0.031,I-internal-HNSWFlat-recall-s2,机核
+g3-results.tex：Internal time-validation references,0.031,I-internal-HNSWFlat-recall-mean,机核
+g3-results.tex：Internal time-validation references,0.001,I-internal-HNSWFlat-recall-sd,机核
+g3-results.tex：Internal time-validation references,91.450,I-internal-HNSWFlat-p50-s0,机核
+g3-results.tex：Internal time-validation references,88.300,I-internal-HNSWFlat-p50-s1,机核
+g3-results.tex：Internal time-validation references,108,I-internal-HNSWFlat-p50-s2,机核
+g3-results.tex：Internal time-validation references,95.917,I-internal-HNSWFlat-p50-mean,机核
+g3-results.tex：Internal time-validation references,10.582,I-internal-HNSWFlat-p50-sd,机核
+g3-results.tex：Internal time-validation references,129.055,I-internal-HNSWFlat-p95-s0,机核
+g3-results.tex：Internal time-validation references,127.985,I-internal-HNSWFlat-p95-s1,机核
+g3-results.tex：Internal time-validation references,174.885,I-internal-HNSWFlat-p95-s2,机核
+g3-results.tex：Internal time-validation references,143.975,I-internal-HNSWFlat-p95-mean,机核
+g3-results.tex：Internal time-validation references,26.774,I-internal-HNSWFlat-p95-sd,机核
+g3-results.tex：Internal time-validation references,8889442,I-internal-HNSWFlat-size-s0,机核
+g3-results.tex：Internal time-validation references,8889314,I-internal-HNSWFlat-size-s1,机核
+g3-results.tex：Internal time-validation references,8889186,I-internal-HNSWFlat-size-s2,机核
+g3-results.tex：Internal time-validation references,8889314,I-internal-HNSWFlat-size-mean,机核
+g3-results.tex：Internal time-validation references,128,I-internal-HNSWFlat-size-sd,机核
+g3-results.tex：Internal time-validation references,0.597,I-internal-IVFPQ-overlap-s0,机核
+g3-results.tex：Internal time-validation references,0.588,I-internal-IVFPQ-overlap-s1,机核
+g3-results.tex：Internal time-validation references,0.594,I-internal-IVFPQ-overlap-s2,机核
+g3-results.tex：Internal time-validation references,0.593,I-internal-IVFPQ-overlap-mean,机核
+g3-results.tex：Internal time-validation references,0.004,I-internal-IVFPQ-overlap-sd,机核
+g3-results.tex：Internal time-validation references,0.030,I-internal-IVFPQ-recall-s0,机核
+g3-results.tex：Internal time-validation references,0.034,I-internal-IVFPQ-recall-s1,机核
+g3-results.tex：Internal time-validation references,0.030,I-internal-IVFPQ-recall-s2,机核
+g3-results.tex：Internal time-validation references,0.031,I-internal-IVFPQ-recall-mean,机核
+g3-results.tex：Internal time-validation references,0.002,I-internal-IVFPQ-recall-sd,机核
+g3-results.tex：Internal time-validation references,42,I-internal-IVFPQ-p50-s0,机核
+g3-results.tex：Internal time-validation references,35.500,I-internal-IVFPQ-p50-s1,机核
+g3-results.tex：Internal time-validation references,42.900,I-internal-IVFPQ-p50-s2,机核
+g3-results.tex：Internal time-validation references,40.133,I-internal-IVFPQ-p50-mean,机核
+g3-results.tex：Internal time-validation references,4.038,I-internal-IVFPQ-p50-sd,机核
+g3-results.tex：Internal time-validation references,55,I-internal-IVFPQ-p95-s0,机核
+g3-results.tex：Internal time-validation references,43.600,I-internal-IVFPQ-p95-s1,机核
+g3-results.tex：Internal time-validation references,52.985,I-internal-IVFPQ-p95-s2,机核
+g3-results.tex：Internal time-validation references,50.528,I-internal-IVFPQ-p95-mean,机核
+g3-results.tex：Internal time-validation references,6.084,I-internal-IVFPQ-p95-sd,机核
+g3-results.tex：Internal time-validation references,351924,I-internal-IVFPQ-size-s0,机核
+g3-results.tex：Internal time-validation references,351924,I-internal-IVFPQ-size-s1,机核
+g3-results.tex：Internal time-validation references,351924,I-internal-IVFPQ-size-s2,机核
+g3-results.tex：Internal time-validation references,351924,I-internal-IVFPQ-size-mean,机核
+g3-results.tex：Internal time-validation references,0,I-internal-IVFPQ-size-sd,机核
+g3-results.tex：Internal time-validation references,0.016,I-internal-audit-split-s0,机核
+g3-results.tex：Internal time-validation references,0.016,I-internal-audit-split-s1,机核
+g3-results.tex：Internal time-validation references,0.014,I-internal-audit-split-s2,机核
+g3-results.tex：Internal time-validation references,0.015,I-internal-audit-split-mean,机核
+g3-results.tex：Internal time-validation references,0.001,I-internal-audit-split-sd,机核
+g3-results.tex：Internal time-validation references,0.268,I-internal-audit-history-s0,机核
+g3-results.tex：Internal time-validation references,0.273,I-internal-audit-history-s1,机核
+g3-results.tex：Internal time-validation references,0.267,I-internal-audit-history-s2,机核
+g3-results.tex：Internal time-validation references,0.269,I-internal-audit-history-mean,机核
+g3-results.tex：Internal time-validation references,0.003,I-internal-audit-history-sd,机核
+g3-results.tex：Internal time-validation references,0.500,I-internal-audit-random-s0,机核
+g3-results.tex：Internal time-validation references,0.500,I-internal-audit-random-s1,机核
+g3-results.tex：Internal time-validation references,0.500,I-internal-audit-random-s2,机核
+g3-results.tex：Internal time-validation references,0.500,I-internal-audit-random-mean,机核
+g3-results.tex：Internal time-validation references,0,I-internal-audit-random-sd,机核
+g3-results.tex：Internal time-validation references,-0.007,I-internal-audit-uniform-s0,机核
+g3-results.tex：Internal time-validation references,-0.011,I-internal-audit-uniform-s1,机核
+g3-results.tex：Internal time-validation references,-0.005,I-internal-audit-uniform-s2,机核
+g3-results.tex：Internal time-validation references,-0.008,I-internal-audit-uniform-mean,机核
+g3-results.tex：Internal time-validation references,0.003,I-internal-audit-uniform-sd,机核
+g3-results.tex：Internal time-validation references,-0.044,I-internal-audit-weighted-s0,机核
+g3-results.tex：Internal time-validation references,-0.044,I-internal-audit-weighted-s1,机核
+g3-results.tex：Internal time-validation references,-0.035,I-internal-audit-weighted-s2,机核
+g3-results.tex：Internal time-validation references,-0.041,I-internal-audit-weighted-mean,机核
+g3-results.tex：Internal time-validation references,0.005,I-internal-audit-weighted-sd,机核
+g3-results.tex：Conclusions,（结论原文）,C-small-dev-tower,宏生成
+g3-results.tex：Conclusions,（结论原文）,C-small-dev-din,宏生成
+g3-results.tex：Conclusions,（结论原文）,C-small-dev-fixed-pool,宏生成
+g3-results.tex：Conclusions,（结论原文）,C-small-dev-internal,宏生成

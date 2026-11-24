@@ -1,0 +1,16 @@
+# MIND-small train/dev | Recommenders/MIND @ 2115068f457b577f93a268fffe22373e45727d89
+# Microsoft MIND: https://msnews.github.io/
+# Publisher SHA-256 (Git LFS): https://huggingface.co/api/datasets/Recommenders/MIND/tree/2115068f457b577f93a268fffe22373e45727d89
+# 经项目负责人同意使用 Recommenders 发行包和国内镜像。微软主页目标同名 train/dev 的远端字节数为 52953372 / 30946172，与本清单的两个 ZIP 不同。
+# train 2026-11-24T01:59:06+08:00 | publisher: https://huggingface.co/datasets/Recommenders/MIND/resolve/2115068f457b577f93a268fffe22373e45727d89/MINDsmall_train.zip
+# mirror: https://hf-mirror.com/datasets/Recommenders/MIND/resolve/2115068f457b577f93a268fffe22373e45727d89/MINDsmall_train.zip
+# final CDN (ephemeral query omitted): https://cas-bridge.xethub.hf.co/xet-bridge-us/6940729b11ef29e2e6969ab2/0d6d50cfb534b494a1153694f8a488170b28b0ac1c254363b565aa6b11c7761f
+# dev 2026-11-24T01:59:11+08:00 | publisher: https://huggingface.co/datasets/Recommenders/MIND/resolve/2115068f457b577f93a268fffe22373e45727d89/MINDsmall_dev.zip
+# mirror: https://hf-mirror.com/datasets/Recommenders/MIND/resolve/2115068f457b577f93a268fffe22373e45727d89/MINDsmall_dev.zip
+# final CDN (ephemeral query omitted): https://cas-bridge.xethub.hf.co/xet-bridge-us/6940729b11ef29e2e6969ab2/e3db712b7eb4339bc1729c5a0075c2e8204107690f9d5f0f974de4852622564f
+6ef97a271580b98ccfc4301ada55cc639423cb0576a78b8dcfcf74a4dbcc3194  data/raw/MINDsmall_train.zip
+a424547c8fa17c9ea4879c2110221c2b2f2709f4f7615ede0b0d8e4765158658  data/train/behaviors.tsv
+cd49d7da275e9c405f627d75a0de9d4ec6ad43ff8a8db5d23a447591676e09d6  data/train/news.tsv
+d6ce515dcaa6b6d47ddf0a326eebc8a31b84735ae410285c9882ca2a06eec669  data/raw/MINDsmall_dev.zip
+b6c460e33b1a8693252ded6e626da7d3ccf78920eea2ec11889020bb7d8443ef  data/dev/behaviors.tsv
+e5d144667558c449d16084fe6bfa01940c2f5d5785ea9f9110292bc3b94eb822  data/dev/news.tsv

@@ -1,0 +1,33 @@
+{
+  "faiss_object": "RV-faiss-s0",
+  "faiss_payload": "26a9509c9eb8afb8653ee93d6f55571b8a9bec3b04e548c23c39d22546dd249b",
+  "faiss_config": "configs/mind-faiss-v0.1.json",
+  "faiss_config_sha256": "60af1e582c04b8ae63f02785cb2b0e36fea73fb9c96ab8d4657c5dac8f0b5e90",
+  "epochs": 3,
+  "batch_size": 32,
+  "lr": 0.001,
+  "history": 20,
+  "dim": 64,
+  "attention_widths": [
+    64,
+    32
+  ],
+  "head_width": 64,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "seconds": 7200,
+  "expected": {
+    "impressions": 31393,
+    "outside": 18289,
+    "missed": 28671,
+    "recalled": 1528,
+    "pool_denominator": 1447
+  },
+  "folder": "checkpoints/card-009",
+  "loss": "mean candidate BCE per nonempty-history impression then mean per batch",
+  "pool_metric": "IDCG over recalled positives",
+  "end_to_end_metric": "IDCG over all logged positives, zero-hit impressions included"
+}

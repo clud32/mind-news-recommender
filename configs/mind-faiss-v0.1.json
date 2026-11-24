@@ -1,0 +1,37 @@
+{
+  "encoder_object": "RV-two-tower-s0",
+  "encoder_payload": "59e0183f0216447131a732cf1349c7052ba9fec350af45b1eda4523b4535283b",
+  "encoder_config": "configs/mind-two-tower-v0.1.json",
+  "encoder_config_sha256": "16af7e1b2345f80d6bde7ee51e086c19bb9c1f57885e44b4d13237f893072db0",
+  "split_object": "RV-data-profile",
+  "split_payload": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51",
+  "boundary": "2019-11-13 20:36:26",
+  "count": 16832,
+  "queries": 31393,
+  "dimension": 64,
+  "clicks": 48488,
+  "encoder_seed": 0,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "metric": "inner_product",
+  "k": 100,
+  "hnsw": {
+    "M": 32,
+    "efConstruction": 100,
+    "efSearch": 128
+  },
+  "ivfpq": {
+    "nlist": 64,
+    "m": 8,
+    "nbits": 8,
+    "nprobe": 8
+  },
+  "timed": 1024,
+  "warmup": 128,
+  "threads": 1,
+  "folder": "checkpoints/card-008",
+  "covered": 30199
+}

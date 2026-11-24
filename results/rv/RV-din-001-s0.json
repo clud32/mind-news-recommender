@@ -1,0 +1,119 @@
+{
+ "_meta": {
+  "kind": "RV",
+  "version": "RV-din-001-s0",
+  "commit": "5ef48c1b61f54245021b442ca3654a0644ecc4da",
+  "dirty": false,
+  "time": "2026-11-25T03:45:37+08:00",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "config": "configs/mind-din-v0.1.json",
+  "config_sha256": "2d24a27e3d2b5d0f3bea8bd28cdca0ff0a0540da4b479c0cc39c46511ae809f2",
+  "seed": 0,
+  "payload_sha256": "dce971b6eeee998c4a95e4614c039969c5ae54662b3cf8d9a9cc189e85f4aae0",
+  "elapsed_seconds": 54.028575399992405,
+  "device": "cuda"
+ },
+ "payload": {
+  "seed": 0,
+  "config_sha256": "2d24a27e3d2b5d0f3bea8bd28cdca0ff0a0540da4b479c0cc39c46511ae809f2",
+  "reference": "26a9509c9eb8afb8653ee93d6f55571b8a9bec3b04e548c23c39d22546dd249b",
+  "pool_manifest_sha256": "9893e51b2e0b978224ac86437a38246f56bb97293945861caf8a510f4dc1025c",
+  "pool": {
+   "commit": "5ef48c1b61f54245021b442ca3654a0644ecc4da",
+   "flat": "fe814cf2cd323a4958305a0ee20c02f8e8dfd3a50758642c1806feac8407a90d",
+   "inputs": "f5a18e673029dd317657e9f40014a4b2319a941b3cf7d5eca01ea8779bf3ba1a",
+   "impression_ids": "f0b1dd83bad5e1857415f56ced18ebc10414e3fc51da5a18743d1ea62ec86d6e",
+   "news_ids": "65e2f1bb37c046d9d925b030080ab1d92dc2586bfd582492f8f83bdc2a8f09ab",
+   "path": "checkpoints/card-009/top100.npy",
+   "sha256": "821e09e350b263a6251068c285475e4d20bb3e1b432ad9edd001476fbfd6f2ea",
+   "counts": {
+    "impressions": 31393,
+    "outside": 18289,
+    "missed": 28671,
+    "hits": 1528,
+    "pool_exposures": 1447
+   }
+  },
+  "epochs": [
+   {
+    "epoch": 1,
+    "valid": 123135,
+    "empty_fallback": 2437,
+    "candidates": 4490340,
+    "fallback_candidates": 88851,
+    "loss": 0.29001827754375875,
+    "seconds": 12.782919199991738
+   },
+   {
+    "epoch": 2,
+    "valid": 123135,
+    "empty_fallback": 2437,
+    "candidates": 4490340,
+    "fallback_candidates": 88851,
+    "loss": 0.2788759985464366,
+    "seconds": 10.522338199996739
+   },
+   {
+    "epoch": 3,
+    "valid": 123135,
+    "empty_fallback": 2437,
+    "candidates": 4490340,
+    "fallback_candidates": 88851,
+    "loss": 0.27619448218219494,
+    "seconds": 9.767119199997978
+   }
+  ],
+  "metrics": {
+   "tower": {
+    "pool_ndcg10": 0.12165595429710492,
+    "end_ndcg10": 0.004384390846124357,
+    "official": {
+     "total": 31393,
+     "scoring_denominator": 31393,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.6108077116689347,
+      "MRR": 0.2681608724326892,
+      "nDCG@5": 0.2834715044733813,
+      "nDCG@10": 0.3443192052530168
+     },
+     "status": "已评分"
+    }
+   },
+   "din": {
+    "pool_ndcg10": 0.21800558785571714,
+    "end_ndcg10": 0.007799216492329585,
+    "official": {
+     "total": 31393,
+     "scoring_denominator": 31393,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.5896038709733815,
+      "MRR": 0.2527386189134392,
+      "nDCG@5": 0.2675623693168435,
+      "nDCG@10": 0.33080428944306517
+     },
+     "status": "已评分"
+    }
+   }
+  },
+  "counts": {
+   "pool_denominator": 1447,
+   "end_denominator": 31393,
+   "hits": 1528,
+   "empty_fallback": 801
+  },
+  "weights": {
+   "checkpoints/card-009/s0.pt": "965eead03030c59ae4ee0cb2610b884ef87a0bf678b5b82bdd5be2ca952044a5"
+  }
+ }
+}

@@ -1,0 +1,176 @@
+\documentclass{article}
+\usepackage[margin=0.65in]{geometry}
+\begin{document}
+\input{generated/macros.tex}
+\section*{MIND-small final comparison}
+Official metrics are exposure weighted. Temporal recall uses recorded click occurrences.
+Baseline values and the frozen reranking control appear once, in the first value column.
+Intervals resample paired users and retain exposure or click weights.
+\small
+\subsection*{Official impression ranking}
+\begin{tabular}{lrrrrr}
+Method and metric & Seed 0 & Seed 1 & Seed 2 & Mean & Sample SD \\
+\hline
+Popularity AUC & \iv{I-official-pop-auc} & -- & -- & -- & -- \\
+Popularity MRR & \iv{I-official-pop-mrr} & -- & -- & -- & -- \\
+Popularity nDCG@5 & \iv{I-official-pop-ndcg5} & -- & -- & -- & -- \\
+Popularity nDCG@10 & \iv{I-official-pop-ndcg10} & -- & -- & -- & -- \\
+Recent click AUC & \iv{I-official-recent-auc} & -- & -- & -- & -- \\
+Recent click MRR & \iv{I-official-recent-mrr} & -- & -- & -- & -- \\
+Recent click nDCG@5 & \iv{I-official-recent-ndcg5} & -- & -- & -- & -- \\
+Recent click nDCG@10 & \iv{I-official-recent-ndcg10} & -- & -- & -- & -- \\
+Tower AUC & \iv{I-official-tower-auc-s0} & \iv{I-official-tower-auc-s1} & \iv{I-official-tower-auc-s2} & \iv{I-official-tower-auc-mean} & \iv{I-official-tower-auc-sd} \\
+Tower MRR & \iv{I-official-tower-mrr-s0} & \iv{I-official-tower-mrr-s1} & \iv{I-official-tower-mrr-s2} & \iv{I-official-tower-mrr-mean} & \iv{I-official-tower-mrr-sd} \\
+Tower nDCG@5 & \iv{I-official-tower-ndcg5-s0} & \iv{I-official-tower-ndcg5-s1} & \iv{I-official-tower-ndcg5-s2} & \iv{I-official-tower-ndcg5-mean} & \iv{I-official-tower-ndcg5-sd} \\
+Tower nDCG@10 & \iv{I-official-tower-ndcg10-s0} & \iv{I-official-tower-ndcg10-s1} & \iv{I-official-tower-ndcg10-s2} & \iv{I-official-tower-ndcg10-mean} & \iv{I-official-tower-ndcg10-sd} \\
+DIN AUC & \iv{I-official-din-auc-s0} & \iv{I-official-din-auc-s1} & \iv{I-official-din-auc-s2} & \iv{I-official-din-auc-mean} & \iv{I-official-din-auc-sd} \\
+DIN MRR & \iv{I-official-din-mrr-s0} & \iv{I-official-din-mrr-s1} & \iv{I-official-din-mrr-s2} & \iv{I-official-din-mrr-mean} & \iv{I-official-din-mrr-sd} \\
+DIN nDCG@5 & \iv{I-official-din-ndcg5-s0} & \iv{I-official-din-ndcg5-s1} & \iv{I-official-din-ndcg5-s2} & \iv{I-official-din-ndcg5-mean} & \iv{I-official-din-ndcg5-sd} \\
+DIN nDCG@10 & \iv{I-official-din-ndcg10-s0} & \iv{I-official-din-ndcg10-s1} & \iv{I-official-din-ndcg10-s2} & \iv{I-official-din-ndcg10-mean} & \iv{I-official-din-ndcg10-sd} \\
+\end{tabular}
+
+\clearpage
+\subsection*{Temporal retrieval}
+\begin{tabular}{lrrrrr}
+Method and metric & Seed 0 & Seed 1 & Seed 2 & Mean & Sample SD \\
+\hline
+Popularity clicks & \iv{I-retrieval-pop-clicks} & -- & -- & -- & -- \\
+Popularity covered & \iv{I-retrieval-pop-covered} & -- & -- & -- & -- \\
+Popularity hits & \iv{I-retrieval-pop-hits} & -- & -- & -- & -- \\
+Popularity recall & \iv{I-retrieval-pop-recall} & -- & -- & -- & -- \\
+Popularity coverage & \iv{I-retrieval-pop-coverage} & -- & -- & -- & -- \\
+Popularity conditional recall & \iv{I-retrieval-pop-conditional_recall} & -- & -- & -- & -- \\
+Recent click clicks & \iv{I-retrieval-recent-clicks} & -- & -- & -- & -- \\
+Recent click covered & \iv{I-retrieval-recent-covered} & -- & -- & -- & -- \\
+Recent click hits & \iv{I-retrieval-recent-hits} & -- & -- & -- & -- \\
+Recent click recall & \iv{I-retrieval-recent-recall} & -- & -- & -- & -- \\
+Recent click coverage & \iv{I-retrieval-recent-coverage} & -- & -- & -- & -- \\
+Recent click conditional recall & \iv{I-retrieval-recent-conditional_recall} & -- & -- & -- & -- \\
+Tower clicks & \iv{I-retrieval-tower-clicks-s0} & \iv{I-retrieval-tower-clicks-s1} & \iv{I-retrieval-tower-clicks-s2} & \iv{I-retrieval-tower-clicks-mean} & \iv{I-retrieval-tower-clicks-sd} \\
+Tower covered & \iv{I-retrieval-tower-covered-s0} & \iv{I-retrieval-tower-covered-s1} & \iv{I-retrieval-tower-covered-s2} & \iv{I-retrieval-tower-covered-mean} & \iv{I-retrieval-tower-covered-sd} \\
+Tower hits & \iv{I-retrieval-tower-hits-s0} & \iv{I-retrieval-tower-hits-s1} & \iv{I-retrieval-tower-hits-s2} & \iv{I-retrieval-tower-hits-mean} & \iv{I-retrieval-tower-hits-sd} \\
+Tower recall & \iv{I-retrieval-tower-recall-s0} & \iv{I-retrieval-tower-recall-s1} & \iv{I-retrieval-tower-recall-s2} & \iv{I-retrieval-tower-recall-mean} & \iv{I-retrieval-tower-recall-sd} \\
+Tower coverage & \iv{I-retrieval-tower-coverage-s0} & \iv{I-retrieval-tower-coverage-s1} & \iv{I-retrieval-tower-coverage-s2} & \iv{I-retrieval-tower-coverage-mean} & \iv{I-retrieval-tower-coverage-sd} \\
+Tower conditional recall & \iv{I-retrieval-tower-conditional_recall-s0} & \iv{I-retrieval-tower-conditional_recall-s1} & \iv{I-retrieval-tower-conditional_recall-s2} & \iv{I-retrieval-tower-conditional_recall-mean} & \iv{I-retrieval-tower-conditional_recall-sd} \\
+\end{tabular}
+
+\clearpage
+\subsection*{Fixed-pool ranking}
+\begin{tabular}{lrrrrr}
+Method and metric & Seed 0 & Seed 1 & Seed 2 & Mean & Sample SD \\
+\hline
+Tower seed 0 pool nDCG@10 & \iv{I-rerank-tower-pool} & -- & -- & -- & -- \\
+DIN pool nDCG@10 & \iv{I-rerank-din-pool-s0} & \iv{I-rerank-din-pool-s1} & \iv{I-rerank-din-pool-s2} & \iv{I-rerank-din-pool-mean} & \iv{I-rerank-din-pool-sd} \\
+Tower seed 0 end nDCG@10 & \iv{I-rerank-tower-end} & -- & -- & -- & -- \\
+DIN end nDCG@10 & \iv{I-rerank-din-end-s0} & \iv{I-rerank-din-end-s1} & \iv{I-rerank-din-end-s2} & \iv{I-rerank-din-end-mean} & \iv{I-rerank-din-end-sd} \\
+\end{tabular}
+
+\clearpage
+\subsection*{Same-sample paired differences}
+\begin{tabular}{lrrrrr}
+Comparison & Seed 0 & Seed 1 & Seed 2 & Mean & Sample SD \\
+\hline
+Tower minus Popularity, AUC & \iv{I-official-tower-minus-popularity-auc-s0} & \iv{I-official-tower-minus-popularity-auc-s1} & \iv{I-official-tower-minus-popularity-auc-s2} & \iv{I-official-tower-minus-popularity-auc-mean} & \iv{I-official-tower-minus-popularity-auc-sd} \\
+Tower minus Recent click, AUC & \iv{I-official-tower-minus-recent_click-auc-s0} & \iv{I-official-tower-minus-recent_click-auc-s1} & \iv{I-official-tower-minus-recent_click-auc-s2} & \iv{I-official-tower-minus-recent_click-auc-mean} & \iv{I-official-tower-minus-recent_click-auc-sd} \\
+Tower minus Popularity, MRR & \iv{I-official-tower-minus-popularity-mrr-s0} & \iv{I-official-tower-minus-popularity-mrr-s1} & \iv{I-official-tower-minus-popularity-mrr-s2} & \iv{I-official-tower-minus-popularity-mrr-mean} & \iv{I-official-tower-minus-popularity-mrr-sd} \\
+Tower minus Recent click, MRR & \iv{I-official-tower-minus-recent_click-mrr-s0} & \iv{I-official-tower-minus-recent_click-mrr-s1} & \iv{I-official-tower-minus-recent_click-mrr-s2} & \iv{I-official-tower-minus-recent_click-mrr-mean} & \iv{I-official-tower-minus-recent_click-mrr-sd} \\
+Tower minus Popularity, nDCG@5 & \iv{I-official-tower-minus-popularity-ndcg5-s0} & \iv{I-official-tower-minus-popularity-ndcg5-s1} & \iv{I-official-tower-minus-popularity-ndcg5-s2} & \iv{I-official-tower-minus-popularity-ndcg5-mean} & \iv{I-official-tower-minus-popularity-ndcg5-sd} \\
+Tower minus Recent click, nDCG@5 & \iv{I-official-tower-minus-recent_click-ndcg5-s0} & \iv{I-official-tower-minus-recent_click-ndcg5-s1} & \iv{I-official-tower-minus-recent_click-ndcg5-s2} & \iv{I-official-tower-minus-recent_click-ndcg5-mean} & \iv{I-official-tower-minus-recent_click-ndcg5-sd} \\
+Tower minus Popularity, nDCG@10 & \iv{I-official-tower-minus-popularity-ndcg10-s0} & \iv{I-official-tower-minus-popularity-ndcg10-s1} & \iv{I-official-tower-minus-popularity-ndcg10-s2} & \iv{I-official-tower-minus-popularity-ndcg10-mean} & \iv{I-official-tower-minus-popularity-ndcg10-sd} \\
+Tower minus Recent click, nDCG@10 & \iv{I-official-tower-minus-recent_click-ndcg10-s0} & \iv{I-official-tower-minus-recent_click-ndcg10-s1} & \iv{I-official-tower-minus-recent_click-ndcg10-s2} & \iv{I-official-tower-minus-recent_click-ndcg10-mean} & \iv{I-official-tower-minus-recent_click-ndcg10-sd} \\
+Tower minus Popularity, recall & \iv{I-retrieval-tower-minus-popularity-recall-s0} & \iv{I-retrieval-tower-minus-popularity-recall-s1} & \iv{I-retrieval-tower-minus-popularity-recall-s2} & \iv{I-retrieval-tower-minus-popularity-recall-mean} & \iv{I-retrieval-tower-minus-popularity-recall-sd} \\
+Tower minus Recent click, recall & \iv{I-retrieval-tower-minus-recent_click-recall-s0} & \iv{I-retrieval-tower-minus-recent_click-recall-s1} & \iv{I-retrieval-tower-minus-recent_click-recall-s2} & \iv{I-retrieval-tower-minus-recent_click-recall-mean} & \iv{I-retrieval-tower-minus-recent_click-recall-sd} \\
+Tower minus Popularity, coverage & \iv{I-retrieval-tower-minus-popularity-coverage-s0} & \iv{I-retrieval-tower-minus-popularity-coverage-s1} & \iv{I-retrieval-tower-minus-popularity-coverage-s2} & \iv{I-retrieval-tower-minus-popularity-coverage-mean} & \iv{I-retrieval-tower-minus-popularity-coverage-sd} \\
+Tower minus Recent click, coverage & \iv{I-retrieval-tower-minus-recent_click-coverage-s0} & \iv{I-retrieval-tower-minus-recent_click-coverage-s1} & \iv{I-retrieval-tower-minus-recent_click-coverage-s2} & \iv{I-retrieval-tower-minus-recent_click-coverage-mean} & \iv{I-retrieval-tower-minus-recent_click-coverage-sd} \\
+Tower minus Popularity, conditional recall & \iv{I-retrieval-tower-minus-popularity-conditional_recall-s0} & \iv{I-retrieval-tower-minus-popularity-conditional_recall-s1} & \iv{I-retrieval-tower-minus-popularity-conditional_recall-s2} & \iv{I-retrieval-tower-minus-popularity-conditional_recall-mean} & \iv{I-retrieval-tower-minus-popularity-conditional_recall-sd} \\
+Tower minus Recent click, conditional recall & \iv{I-retrieval-tower-minus-recent_click-conditional_recall-s0} & \iv{I-retrieval-tower-minus-recent_click-conditional_recall-s1} & \iv{I-retrieval-tower-minus-recent_click-conditional_recall-s2} & \iv{I-retrieval-tower-minus-recent_click-conditional_recall-mean} & \iv{I-retrieval-tower-minus-recent_click-conditional_recall-sd} \\
+DIN minus Popularity, AUC & \iv{I-official-din-minus-popularity-auc-s0} & \iv{I-official-din-minus-popularity-auc-s1} & \iv{I-official-din-minus-popularity-auc-s2} & \iv{I-official-din-minus-popularity-auc-mean} & \iv{I-official-din-minus-popularity-auc-sd} \\
+DIN minus Recent click, AUC & \iv{I-official-din-minus-recent_click-auc-s0} & \iv{I-official-din-minus-recent_click-auc-s1} & \iv{I-official-din-minus-recent_click-auc-s2} & \iv{I-official-din-minus-recent_click-auc-mean} & \iv{I-official-din-minus-recent_click-auc-sd} \\
+DIN minus Tower seed 0, AUC & \iv{I-official-din-minus-tower-auc-s0} & \iv{I-official-din-minus-tower-auc-s1} & \iv{I-official-din-minus-tower-auc-s2} & \iv{I-official-din-minus-tower-auc-mean} & \iv{I-official-din-minus-tower-auc-sd} \\
+DIN minus Popularity, MRR & \iv{I-official-din-minus-popularity-mrr-s0} & \iv{I-official-din-minus-popularity-mrr-s1} & \iv{I-official-din-minus-popularity-mrr-s2} & \iv{I-official-din-minus-popularity-mrr-mean} & \iv{I-official-din-minus-popularity-mrr-sd} \\
+DIN minus Recent click, MRR & \iv{I-official-din-minus-recent_click-mrr-s0} & \iv{I-official-din-minus-recent_click-mrr-s1} & \iv{I-official-din-minus-recent_click-mrr-s2} & \iv{I-official-din-minus-recent_click-mrr-mean} & \iv{I-official-din-minus-recent_click-mrr-sd} \\
+DIN minus Tower seed 0, MRR & \iv{I-official-din-minus-tower-mrr-s0} & \iv{I-official-din-minus-tower-mrr-s1} & \iv{I-official-din-minus-tower-mrr-s2} & \iv{I-official-din-minus-tower-mrr-mean} & \iv{I-official-din-minus-tower-mrr-sd} \\
+DIN minus Popularity, nDCG@5 & \iv{I-official-din-minus-popularity-ndcg5-s0} & \iv{I-official-din-minus-popularity-ndcg5-s1} & \iv{I-official-din-minus-popularity-ndcg5-s2} & \iv{I-official-din-minus-popularity-ndcg5-mean} & \iv{I-official-din-minus-popularity-ndcg5-sd} \\
+DIN minus Recent click, nDCG@5 & \iv{I-official-din-minus-recent_click-ndcg5-s0} & \iv{I-official-din-minus-recent_click-ndcg5-s1} & \iv{I-official-din-minus-recent_click-ndcg5-s2} & \iv{I-official-din-minus-recent_click-ndcg5-mean} & \iv{I-official-din-minus-recent_click-ndcg5-sd} \\
+DIN minus Tower seed 0, nDCG@5 & \iv{I-official-din-minus-tower-ndcg5-s0} & \iv{I-official-din-minus-tower-ndcg5-s1} & \iv{I-official-din-minus-tower-ndcg5-s2} & \iv{I-official-din-minus-tower-ndcg5-mean} & \iv{I-official-din-minus-tower-ndcg5-sd} \\
+DIN minus Popularity, nDCG@10 & \iv{I-official-din-minus-popularity-ndcg10-s0} & \iv{I-official-din-minus-popularity-ndcg10-s1} & \iv{I-official-din-minus-popularity-ndcg10-s2} & \iv{I-official-din-minus-popularity-ndcg10-mean} & \iv{I-official-din-minus-popularity-ndcg10-sd} \\
+DIN minus Recent click, nDCG@10 & \iv{I-official-din-minus-recent_click-ndcg10-s0} & \iv{I-official-din-minus-recent_click-ndcg10-s1} & \iv{I-official-din-minus-recent_click-ndcg10-s2} & \iv{I-official-din-minus-recent_click-ndcg10-mean} & \iv{I-official-din-minus-recent_click-ndcg10-sd} \\
+DIN minus Tower seed 0, nDCG@10 & \iv{I-official-din-minus-tower-ndcg10-s0} & \iv{I-official-din-minus-tower-ndcg10-s1} & \iv{I-official-din-minus-tower-ndcg10-s2} & \iv{I-official-din-minus-tower-ndcg10-mean} & \iv{I-official-din-minus-tower-ndcg10-sd} \\
+DIN minus Tower seed 0, pool nDCG@10 & \iv{I-rerank-din-minus-tower-pool-s0} & \iv{I-rerank-din-minus-tower-pool-s1} & \iv{I-rerank-din-minus-tower-pool-s2} & \iv{I-rerank-din-minus-tower-pool-mean} & \iv{I-rerank-din-minus-tower-pool-sd} \\
+DIN minus Tower seed 0, end nDCG@10 & \iv{I-rerank-din-minus-tower-end-s0} & \iv{I-rerank-din-minus-tower-end-s1} & \iv{I-rerank-din-minus-tower-end-s2} & \iv{I-rerank-din-minus-tower-end-mean} & \iv{I-rerank-din-minus-tower-end-sd} \\
+\end{tabular}
+
+\clearpage
+\subsection*{Evaluation denominators and recall destinations}
+\begin{tabular}{lr}
+Quantity & Value \\
+\hline
+Pool ranking denominator & \iv{I-denom-pool} \\
+End ranking denominator & \iv{I-denom-end} \\
+Dev total & \iv{I-official-total} \\
+Scored exposure count & \iv{I-denom-official} \\
+Microsoft scorer denominator & \iv{I-denom-microsoft} \\
+empty labels & \iv{I-excluded-empty_labels} \\
+all positive & \iv{I-excluded-all_positive} \\
+all negative & \iv{I-excluded-all_negative} \\
+Frozen Top-100 click destination: outside & \iv{I-destination-outside} \\
+Frozen Top-100 click destination: missed & \iv{I-destination-missed} \\
+Frozen Top-100 click destination: recalled & \iv{I-destination-recalled} \\
+Microsoft absolute error AUC & \iv{I-error-AUC} \\
+Microsoft absolute error MRR & \iv{I-error-MRR} \\
+Microsoft absolute error nDCG@5 & \iv{I-error-nDCG5} \\
+Microsoft absolute error nDCG@10 & \iv{I-error-nDCG10} \\
+\end{tabular}
+
+\clearpage
+\subsection*{User-cluster bootstrap}
+\begin{tabular}{lrrrrr}
+Comparison & Effect & 95 percent low & 95 percent high & Users & Denominator \\
+\hline
+DIN minus Tower seed 0, pool & \iv{I-pool_din_minus_tower_s0-estimate} & \iv{I-pool_din_minus_tower_s0-low} & \iv{I-pool_din_minus_tower_s0-high} & \iv{I-pool_din_minus_tower_s0-users} & \iv{I-pool_din_minus_tower_s0-denominator} \\
+DIN minus Tower seed 0, end & \iv{I-end_din_minus_tower_s0-estimate} & \iv{I-end_din_minus_tower_s0-low} & \iv{I-end_din_minus_tower_s0-high} & \iv{I-end_din_minus_tower_s0-users} & \iv{I-end_din_minus_tower_s0-denominator} \\
+Tower minus Popularity, official nDCG@10 & \iv{I-official_tower_minus_popularity-estimate} & \iv{I-official_tower_minus_popularity-low} & \iv{I-official_tower_minus_popularity-high} & \iv{I-official_tower_minus_popularity-users} & \iv{I-official_tower_minus_popularity-denominator} \\
+DIN minus Popularity, official nDCG@10 & \iv{I-official_din_minus_popularity-estimate} & \iv{I-official_din_minus_popularity-low} & \iv{I-official_din_minus_popularity-high} & \iv{I-official_din_minus_popularity-users} & \iv{I-official_din_minus_popularity-denominator} \\
+Tower minus Popularity, temporal recall & \iv{I-recall_tower_minus_popularity-estimate} & \iv{I-recall_tower_minus_popularity-low} & \iv{I-recall_tower_minus_popularity-high} & \iv{I-recall_tower_minus_popularity-users} & \iv{I-recall_tower_minus_popularity-denominator} \\
+Tower minus Recent click, official nDCG@10 & \iv{I-official_tower_minus_recent_click-estimate} & \iv{I-official_tower_minus_recent_click-low} & \iv{I-official_tower_minus_recent_click-high} & \iv{I-official_tower_minus_recent_click-users} & \iv{I-official_tower_minus_recent_click-denominator} \\
+DIN minus Recent click, official nDCG@10 & \iv{I-official_din_minus_recent_click-estimate} & \iv{I-official_din_minus_recent_click-low} & \iv{I-official_din_minus_recent_click-high} & \iv{I-official_din_minus_recent_click-users} & \iv{I-official_din_minus_recent_click-denominator} \\
+Tower minus Recent click, temporal recall & \iv{I-recall_tower_minus_recent_click-estimate} & \iv{I-recall_tower_minus_recent_click-low} & \iv{I-recall_tower_minus_recent_click-high} & \iv{I-recall_tower_minus_recent_click-users} & \iv{I-recall_tower_minus_recent_click-denominator} \\
+DIN minus Tower seed 0, official nDCG@10 & \iv{I-official_din_minus_tower_s0-estimate} & \iv{I-official_din_minus_tower_s0-low} & \iv{I-official_din_minus_tower_s0-high} & \iv{I-official_din_minus_tower_s0-users} & \iv{I-official_din_minus_tower_s0-denominator} \\
+\end{tabular}
+
+\clearpage
+\subsection*{Internal time-validation references}
+\begin{tabular}{lrrrrr}
+Quantity & Seed 0 & Seed 1 & Seed 2 & Mean & Sample SD \\
+\hline
+Flat overlap & \iv{I-internal-Flat-overlap-s0} & \iv{I-internal-Flat-overlap-s1} & \iv{I-internal-Flat-overlap-s2} & \iv{I-internal-Flat-overlap-mean} & \iv{I-internal-Flat-overlap-sd} \\
+Flat recall & \iv{I-internal-Flat-recall-s0} & \iv{I-internal-Flat-recall-s1} & \iv{I-internal-Flat-recall-s2} & \iv{I-internal-Flat-recall-mean} & \iv{I-internal-Flat-recall-sd} \\
+Flat p50 & \iv{I-internal-Flat-p50-s0} & \iv{I-internal-Flat-p50-s1} & \iv{I-internal-Flat-p50-s2} & \iv{I-internal-Flat-p50-mean} & \iv{I-internal-Flat-p50-sd} \\
+Flat p95 & \iv{I-internal-Flat-p95-s0} & \iv{I-internal-Flat-p95-s1} & \iv{I-internal-Flat-p95-s2} & \iv{I-internal-Flat-p95-mean} & \iv{I-internal-Flat-p95-sd} \\
+Flat size & \iv{I-internal-Flat-size-s0} & \iv{I-internal-Flat-size-s1} & \iv{I-internal-Flat-size-s2} & \iv{I-internal-Flat-size-mean} & \iv{I-internal-Flat-size-sd} \\
+HNSWFlat overlap & \iv{I-internal-HNSWFlat-overlap-s0} & \iv{I-internal-HNSWFlat-overlap-s1} & \iv{I-internal-HNSWFlat-overlap-s2} & \iv{I-internal-HNSWFlat-overlap-mean} & \iv{I-internal-HNSWFlat-overlap-sd} \\
+HNSWFlat recall & \iv{I-internal-HNSWFlat-recall-s0} & \iv{I-internal-HNSWFlat-recall-s1} & \iv{I-internal-HNSWFlat-recall-s2} & \iv{I-internal-HNSWFlat-recall-mean} & \iv{I-internal-HNSWFlat-recall-sd} \\
+HNSWFlat p50 & \iv{I-internal-HNSWFlat-p50-s0} & \iv{I-internal-HNSWFlat-p50-s1} & \iv{I-internal-HNSWFlat-p50-s2} & \iv{I-internal-HNSWFlat-p50-mean} & \iv{I-internal-HNSWFlat-p50-sd} \\
+HNSWFlat p95 & \iv{I-internal-HNSWFlat-p95-s0} & \iv{I-internal-HNSWFlat-p95-s1} & \iv{I-internal-HNSWFlat-p95-s2} & \iv{I-internal-HNSWFlat-p95-mean} & \iv{I-internal-HNSWFlat-p95-sd} \\
+HNSWFlat size & \iv{I-internal-HNSWFlat-size-s0} & \iv{I-internal-HNSWFlat-size-s1} & \iv{I-internal-HNSWFlat-size-s2} & \iv{I-internal-HNSWFlat-size-mean} & \iv{I-internal-HNSWFlat-size-sd} \\
+IVFPQ overlap & \iv{I-internal-IVFPQ-overlap-s0} & \iv{I-internal-IVFPQ-overlap-s1} & \iv{I-internal-IVFPQ-overlap-s2} & \iv{I-internal-IVFPQ-overlap-mean} & \iv{I-internal-IVFPQ-overlap-sd} \\
+IVFPQ recall & \iv{I-internal-IVFPQ-recall-s0} & \iv{I-internal-IVFPQ-recall-s1} & \iv{I-internal-IVFPQ-recall-s2} & \iv{I-internal-IVFPQ-recall-mean} & \iv{I-internal-IVFPQ-recall-sd} \\
+IVFPQ p50 & \iv{I-internal-IVFPQ-p50-s0} & \iv{I-internal-IVFPQ-p50-s1} & \iv{I-internal-IVFPQ-p50-s2} & \iv{I-internal-IVFPQ-p50-mean} & \iv{I-internal-IVFPQ-p50-sd} \\
+IVFPQ p95 & \iv{I-internal-IVFPQ-p95-s0} & \iv{I-internal-IVFPQ-p95-s1} & \iv{I-internal-IVFPQ-p95-s2} & \iv{I-internal-IVFPQ-p95-mean} & \iv{I-internal-IVFPQ-p95-sd} \\
+IVFPQ size & \iv{I-internal-IVFPQ-size-s0} & \iv{I-internal-IVFPQ-size-s1} & \iv{I-internal-IVFPQ-size-s2} & \iv{I-internal-IVFPQ-size-mean} & \iv{I-internal-IVFPQ-size-sd} \\
+Random minus time nDCG@10 & \iv{I-internal-audit-split-s0} & \iv{I-internal-audit-split-s1} & \iv{I-internal-audit-split-s2} & \iv{I-internal-audit-split-mean} & \iv{I-internal-audit-split-sd} \\
+Donor history DIN nDCG@10 & \iv{I-internal-audit-history-s0} & \iv{I-internal-audit-history-s1} & \iv{I-internal-audit-history-s2} & \iv{I-internal-audit-history-mean} & \iv{I-internal-audit-history-sd} \\
+Random AUC expectation & \iv{I-internal-audit-random-s0} & \iv{I-internal-audit-random-s1} & \iv{I-internal-audit-random-s2} & \iv{I-internal-audit-random-mean} & \iv{I-internal-audit-random-sd} \\
+Uniform-five DIN minus tower & \iv{I-internal-audit-uniform-s0} & \iv{I-internal-audit-uniform-s1} & \iv{I-internal-audit-uniform-s2} & \iv{I-internal-audit-uniform-mean} & \iv{I-internal-audit-uniform-sd} \\
+Weighted-twenty DIN minus tower & \iv{I-internal-audit-weighted-s0} & \iv{I-internal-audit-weighted-s1} & \iv{I-internal-audit-weighted-s2} & \iv{I-internal-audit-weighted-mean} & \iv{I-internal-audit-weighted-sd} \\
+\end{tabular}
+
+\clearpage
+\section*{Conclusions}
+\begin{itemize}
+\item \cv{C-small-dev-tower}
+\item \cv{C-small-dev-din}
+\item \cv{C-small-dev-fixed-pool}
+\item \cv{C-small-dev-internal}
+\end{itemize}
+\end{document}

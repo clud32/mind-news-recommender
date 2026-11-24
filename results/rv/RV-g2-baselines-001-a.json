@@ -1,0 +1,94 @@
+{
+ "_meta": {
+  "kind": "RV",
+  "version": "RV-g2-baselines-001-a",
+  "commit": "2be42a635da58d9c804782c6d290664857158a5e",
+  "dirty": false,
+  "time": "2026-11-24T23:25:12+08:00",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "config": "configs/mind-baselines-smoke-v0.1.json",
+  "config_sha256": "667e1c8aaa331e964b9b0af11248cc8544c018f1266a60429ad9c3a5ddef75d9",
+  "seed": 0,
+  "payload_sha256": "38fd2757661591125864f299f11b02b082ff4959b176358b2f7a3b2339f32329",
+  "run": "a",
+  "output_file": "RV-g2-baselines-001-a.json",
+  "compute_seconds": 10.946329900005367
+ },
+ "payload": {
+  "models": {
+   "popularity": {
+    "official": {
+     "total": 256,
+     "scoring_denominator": 256,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.5764424109305472,
+      "MRR": 0.2645475775340679,
+      "nDCG@5": 0.2709592786099011,
+      "nDCG@10": 0.33358827654273115
+     },
+     "status": "已评分"
+    },
+    "retrieval": {
+     "clicks": 391,
+     "covered": 389,
+     "hits": 166,
+     "recall": 0.42455242966751916,
+     "coverage": 0.9948849104859335,
+     "conditional_recall": 0.4267352185089974
+    }
+   },
+   "recent_click": {
+    "official": {
+     "total": 256,
+     "scoring_denominator": 256,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.46722942294929637,
+      "MRR": 0.22033438450296197,
+      "nDCG@5": 0.23553285109719566,
+      "nDCG@10": 0.2866532856588504
+     },
+     "status": "已评分"
+    },
+    "retrieval": {
+     "clicks": 391,
+     "covered": 389,
+     "hits": 12,
+     "recall": 0.030690537084398978,
+     "coverage": 0.9948849104859335,
+     "conditional_recall": 0.030848329048843187
+    }
+   }
+  },
+  "fallback_counts": {
+   "empty_history": 10,
+   "missing_title": 0,
+   "empty_title": 0,
+   "zero_vector": 0
+  },
+  "training_candidate_ids": 16832,
+  "tfidf_features": 18608,
+  "split": {
+   "boundary": "2019-11-13 20:36:26",
+   "train": 125572,
+   "validation": 31393,
+   "profile_payload_sha256": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51"
+  },
+  "sample": {
+   "count": 256,
+   "start": "2019-11-13 20:36:26",
+   "end": "2019-11-13 21:04:13",
+   "id_sequence_sha256": "8659c967318bbdff10624f93c391853baa2d939605af59dce4523d1ec455d10b"
+  }
+ }
+}

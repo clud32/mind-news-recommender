@@ -1,0 +1,21 @@
+{
+  "logq_config_sha256": "8a50dbb9bbb91b54db4522f9dfebb432ed2cd96090bbad224245b1d7e9f29fa2",
+  "reference_objects": [
+    "RV-two-tower-logq-s0",
+    "RV-two-tower-logq-s1",
+    "RV-two-tower-logq-s2"
+  ],
+  "checkpoint_root": "checkpoints/card-006",
+  "scratch_prefix": "scratch/card-006/RV-two-tower-hard-001-s",
+  "mined_file": "checkpoints/card-006/hard-negatives.jsonl",
+  "audit_file": "checkpoints/card-006/mining-audit.json",
+  "max_negatives": 4,
+  "loss_weight": 1,
+  "mining": "strictly prior exposure candidates intersect current zeros; exclude all history and positives; title TF cosine > 0 then ID ascending",
+  "loss": "original logQ plus row-local raw-dot softmax; normalize by original valid rows",
+  "expected": {
+    "impressions": 125572,
+    "nonempty": 107794,
+    "pairs": 364754
+  }
+}

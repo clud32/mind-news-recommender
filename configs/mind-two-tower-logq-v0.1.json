@@ -1,0 +1,19 @@
+{
+  "base_config": "configs/mind-two-tower-v0.1.json",
+  "base_config_sha256": "16af7e1b2345f80d6bde7ee51e086c19bb9c1f57885e44b4d13237f893072db0",
+  "correction": "subtract natural log of training target occurrence count / total occurrences from every column before masking",
+  "q_expected": {
+    "total": 187856,
+    "support": 6333,
+    "min": 1,
+    "max": 4316
+  },
+  "reference_objects": [
+    "RV-two-tower-s0",
+    "RV-two-tower-s1",
+    "RV-two-tower-s2"
+  ],
+  "audit": "scratch/card-005/sampler-reference.json",
+  "checkpoint_root": "checkpoints/card-005",
+  "scratch_prefix": "scratch/card-005/RV-two-tower-logq-001-s"
+}

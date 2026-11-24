@@ -1,0 +1,24 @@
+{
+  "news": "data/train/news.tsv",
+  "behaviors": "data/train/behaviors.tsv",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "split_rv": "results/rv/RV-data-profile-001-r1.json",
+  "boundary": "2019-11-13 20:36:26",
+  "train_count": 125572,
+  "validation_count": 31393,
+  "sample_minimum": 256,
+  "sample_rule": "earliest complete validation timestamp groups; stable source order within each timestamp",
+  "seed": 0,
+  "window_hours": 24,
+  "top_k": 100,
+  "tfidf": {
+    "analyzer": "word",
+    "lowercase": true,
+    "token_pattern": "(?u)\\b\\w\\w+\\b",
+    "norm": "l2",
+    "smooth_idf": true,
+    "use_idf": true,
+    "sublinear_tf": false
+  }
+}

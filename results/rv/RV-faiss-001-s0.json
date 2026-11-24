@@ -1,0 +1,167 @@
+{
+ "_meta": {
+  "kind": "RV",
+  "version": "RV-faiss-001-s0",
+  "commit": "b320467b28c525bc22df972fc352fdced023f2e1",
+  "dirty": false,
+  "time": "2026-11-25T03:31:11+08:00",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "config": "configs/mind-faiss-v0.1.json",
+  "config_sha256": "60af1e582c04b8ae63f02785cb2b0e36fea73fb9c96ab8d4657c5dac8f0b5e90",
+  "seed": 0,
+  "payload_sha256": "26a9509c9eb8afb8653ee93d6f55571b8a9bec3b04e548c23c39d22546dd249b"
+ },
+ "payload": {
+  "encoder_seed": 0,
+  "index_seed": 0,
+  "inputs_sha256": "f5a18e673029dd317657e9f40014a4b2319a941b3cf7d5eca01ea8779bf3ba1a",
+  "inputs_path": "checkpoints/card-008/inputs/inputs.json",
+  "inputs": {
+   "commit": "b320467b28c525bc22df972fc352fdced023f2e1",
+   "config_sha256": "60af1e582c04b8ae63f02785cb2b0e36fea73fb9c96ab8d4657c5dac8f0b5e90",
+   "encoder_payload": "59e0183f0216447131a732cf1349c7052ba9fec350af45b1eda4523b4535283b",
+   "encoder_files": {
+    "checkpoints/card-004/s0/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+    "checkpoints/card-004/s0/model.pt": "f8f814af119164bc4ab3f2f20240505a676b998ff1e2a7a405537591ac3fcb75"
+   },
+   "split_payload": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51",
+   "boundary": "2019-11-13 20:36:26",
+   "train": 125572,
+   "validation": 31393,
+   "corpus": 16832,
+   "clicks": 48488,
+   "covered": 30199,
+   "news_id_sha256": "65e2f1bb37c046d9d925b030080ab1d92dc2586bfd582492f8f83bdc2a8f09ab",
+   "impression_id_sha256": "f0b1dd83bad5e1857415f56ced18ebc10414e3fc51da5a18743d1ea62ec86d6e",
+   "artifacts": {
+    "checkpoints/card-008/inputs/news-ids.json": "30b6028431d3ca6930aab49ae5290422c5c15854768edc176349946c77474c15",
+    "checkpoints/card-008/inputs/news.npy": "3762c5614e666fa2e9ebb639a8607044720b142d8d0d9cdfb676a75e81550750",
+    "checkpoints/card-008/inputs/queries.json": "a94ff4f366c24b2fd531eb3994f9f3291e0b3ec78b3c39e66a88d8f48d7b3d8b",
+    "checkpoints/card-008/inputs/queries.npy": "358c97c9498a7bc81c428ed27635e882e5546ed5f705c3fa4731fc37547e6170"
+   }
+  },
+  "order": [
+   "Flat",
+   "HNSWFlat",
+   "IVFPQ"
+  ],
+  "timings_id_sha256": "32625ed4c9125b0164ad1e897f0544dfb04696bf6387aca274ba05cc963f99d0",
+  "timing_count": 1024,
+  "warmup": 128,
+  "threads": 1,
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12800HX",
+  "faiss_version": "1.16.0",
+  "methods": {
+   "Flat": {
+    "train_seconds": 0.0,
+    "add_seconds": 0.0010899,
+    "bytes": 4309037,
+    "p50_us": 127.4,
+    "p95_us": 158.585,
+    "queries": 31393,
+    "nonzero": 30592,
+    "zero": 801,
+    "boundary_tied": 633,
+    "boundary_crossed": 330,
+    "overlap_all": {
+     "queries": 30592,
+     "intersection": 3059200,
+     "overlap": 1.0
+    },
+    "overlap_without_ties": {
+     "queries": 29959,
+     "intersection": 2995900,
+     "overlap": 1.0
+    },
+    "overlap_without_crossing": {
+     "queries": 30262,
+     "intersection": 3026200,
+     "overlap": 1.0
+    },
+    "missing": 0,
+    "clicks": 48488,
+    "covered": 30199,
+    "hits": 1528,
+    "recall": 0.03151295165814222,
+    "coverage": 0.6228138920970137,
+    "conditional_recall": 0.05059770191065929
+   },
+   "HNSWFlat": {
+    "train_seconds": 0.0,
+    "add_seconds": 0.7553207,
+    "bytes": 8889442,
+    "p50_us": 91.45,
+    "p95_us": 129.05499999999998,
+    "queries": 31393,
+    "nonzero": 30592,
+    "zero": 801,
+    "boundary_tied": 633,
+    "boundary_crossed": 330,
+    "overlap_all": {
+     "queries": 30592,
+     "intersection": 2687248,
+     "overlap": 0.8784152719665272
+    },
+    "overlap_without_ties": {
+     "queries": 29959,
+     "intersection": 2630785,
+     "overlap": 0.8781284422043459
+    },
+    "overlap_without_crossing": {
+     "queries": 30262,
+     "intersection": 2657824,
+     "overlap": 0.8782710990681383
+    },
+    "missing": 0,
+    "clicks": 48488,
+    "covered": 30199,
+    "hits": 1520,
+    "recall": 0.03134796238244514,
+    "coverage": 0.6228138920970137,
+    "conditional_recall": 0.050332792476572075
+   },
+   "IVFPQ": {
+    "train_seconds": 1.5468666,
+    "add_seconds": 0.107282,
+    "bytes": 351924,
+    "p50_us": 42.0,
+    "p95_us": 55.0,
+    "queries": 31393,
+    "nonzero": 30592,
+    "zero": 801,
+    "boundary_tied": 633,
+    "boundary_crossed": 330,
+    "overlap_all": {
+     "queries": 30592,
+     "intersection": 1825159,
+     "overlap": 0.5966131668410042
+    },
+    "overlap_without_ties": {
+     "queries": 29959,
+     "intersection": 1789013,
+     "overlap": 0.597153776828332
+    },
+    "overlap_without_crossing": {
+     "queries": 30262,
+     "intersection": 1806510,
+     "overlap": 0.596956579208248
+    },
+    "missing": 0,
+    "clicks": 48488,
+    "covered": 30199,
+    "hits": 1475,
+    "recall": 0.030419897706649067,
+    "coverage": 0.6228138920970137,
+    "conditional_recall": 0.048842676909831455
+   }
+  },
+  "artifacts": {
+   "checkpoints/card-008/s0/Flat.faiss": "fe814cf2cd323a4958305a0ee20c02f8e8dfd3a50758642c1806feac8407a90d",
+   "checkpoints/card-008/s0/HNSWFlat.faiss": "fb092ae894bee53842bffb1b1b4bdd0c2443b004900d5e63ec12939a7c0875b4",
+   "checkpoints/card-008/s0/IVFPQ.faiss": "3af9802adbb83b39bb063f75578172c73336c618d80ab8b2e7bb1493fe5c26a9",
+   "checkpoints/card-008/s0/query-quality.json": "f08ff3ccd7b2ddfe6dfacf820a92d34970cf6116c88a059d7c9eb2d03c5f2446",
+   "checkpoints/card-008/s0/timings.json": "e9caf0762fe5410c0047f2b4f909325b16cf0de48b2383c790d3e9c925563d26"
+  }
+ }
+}

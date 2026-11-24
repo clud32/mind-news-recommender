@@ -1,0 +1,57 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "seconds": 7200,
+  "train": 125572,
+  "valid": 31393,
+  "common": 6346,
+  "sample_count": 18340,
+  "split_seed": 0,
+  "sample_query_sha256": "206252502528438995b1740635fab0c2426bd3c4ef412a933dd70328101f540d",
+  "history_limit": 20,
+  "din_config": "configs/mind-din-v0.1.json",
+  "configs": {
+    "configs/mind-two-tower-v0.1.json": "16af7e1b2345f80d6bde7ee51e086c19bb9c1f57885e44b4d13237f893072db0",
+    "configs/mind-din-v0.1.json": "2d24a27e3d2b5d0f3bea8bd28cdca0ff0a0540da4b479c0cc39c46511ae809f2",
+    "configs/mind-faiss-v0.1.json": "60af1e582c04b8ae63f02785cb2b0e36fea73fb9c96ab8d4657c5dac8f0b5e90",
+    "configs/mind-baselines-smoke-v0.1.json": "667e1c8aaa331e964b9b0af11248cc8544c018f1266a60429ad9c3a5ddef75d9"
+  },
+  "references": {
+    "RV-data-profile": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51",
+    "RV-two-tower-s0": "59e0183f0216447131a732cf1349c7052ba9fec350af45b1eda4523b4535283b",
+    "RV-two-tower-s1": "4fe8eac67e2ec213f4de2afb35ca05b0a8bc2294425eaa05f3483c46c0e4e3e5",
+    "RV-two-tower-s2": "14617ab2c2adc3d5340c85fe1e98c625cd20d851615887cf6ea5c98782ec408b",
+    "RV-din-s0": "dce971b6eeee998c4a95e4614c039969c5ae54662b3cf8d9a9cc189e85f4aae0",
+    "RV-din-s1": "ab6eac5a54e98d542d4f83620567239b0b3037375a89787c8cd9c5e7967bd0e1",
+    "RV-din-s2": "a7a858cb5998a9d576abe6c3b65794d453f11e15f0e43ac38647cd2aaabfe0ca",
+    "RV-faiss-s0": "26a9509c9eb8afb8653ee93d6f55571b8a9bec3b04e548c23c39d22546dd249b",
+    "RV-faiss-s1": "7e735092f8b08547bbe7ce86751f67bef1e2fbc9ace65a0a12bdca88d1e78693",
+    "RV-faiss-s2": "4800161b1178e35ae723c8e1b8197a6f0e7cddad1696f8ccef2a440b61ab9baa"
+  },
+  "pool_manifest": "checkpoints/card-009/pool.json",
+  "folder": "checkpoints/card-010",
+  "scratch": "scratch/card-010",
+  "outputs": [
+    "results/rv/RV-evaluation-audit-001-s0.json",
+    "results/rv/RV-evaluation-audit-001-s1.json",
+    "results/rv/RV-evaluation-audit-001-s2.json"
+  ],
+  "rules": {
+    "A": "Raw file permutation PCG64 seed 0; random train/valid in permutation order; common queries in chronological order. Compare recall on all logged clicks.",
+    "B": "Earlier seconds in the same source calendar hour across all train-source rows; different user, equal last-20 length. Select uniformly from eligible records. Official empty fallback uses empty-user dot scores; fixed DIN fallback keeps the supplied Top-100 order. Candidate-only feeds [c,0,0] into frozen DIN head.",
+    "C": "SeedSequence([seed,20]) for within-query labels and [seed,21] for independent original-label ranks. Average per mixed impression. Evidence includes max individual absolute deviations.",
+    "D": "Sample from previously visible unclicked IDs in this impression; all positives must be visible. Use every chronological group to update after all queries at that second; preceding 24h left endpoint inclusive. Preserve original candidate order."
+  },
+  "streams": {
+    "donor": 10,
+    "labels": 20,
+    "random_ranks": 21,
+    "uniform5": 30,
+    "uniform20": 31,
+    "weighted5": 32,
+    "weighted20": 33
+  }
+}

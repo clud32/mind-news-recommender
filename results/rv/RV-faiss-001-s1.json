@@ -1,0 +1,167 @@
+{
+ "_meta": {
+  "kind": "RV",
+  "version": "RV-faiss-001-s1",
+  "commit": "b320467b28c525bc22df972fc352fdced023f2e1",
+  "dirty": false,
+  "time": "2026-11-25T03:31:31+08:00",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "config": "configs/mind-faiss-v0.1.json",
+  "config_sha256": "60af1e582c04b8ae63f02785cb2b0e36fea73fb9c96ab8d4657c5dac8f0b5e90",
+  "seed": 1,
+  "payload_sha256": "7e735092f8b08547bbe7ce86751f67bef1e2fbc9ace65a0a12bdca88d1e78693"
+ },
+ "payload": {
+  "encoder_seed": 0,
+  "index_seed": 1,
+  "inputs_sha256": "f5a18e673029dd317657e9f40014a4b2319a941b3cf7d5eca01ea8779bf3ba1a",
+  "inputs_path": "checkpoints/card-008/inputs/inputs.json",
+  "inputs": {
+   "commit": "b320467b28c525bc22df972fc352fdced023f2e1",
+   "config_sha256": "60af1e582c04b8ae63f02785cb2b0e36fea73fb9c96ab8d4657c5dac8f0b5e90",
+   "encoder_payload": "59e0183f0216447131a732cf1349c7052ba9fec350af45b1eda4523b4535283b",
+   "encoder_files": {
+    "checkpoints/card-004/s0/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+    "checkpoints/card-004/s0/model.pt": "f8f814af119164bc4ab3f2f20240505a676b998ff1e2a7a405537591ac3fcb75"
+   },
+   "split_payload": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51",
+   "boundary": "2019-11-13 20:36:26",
+   "train": 125572,
+   "validation": 31393,
+   "corpus": 16832,
+   "clicks": 48488,
+   "covered": 30199,
+   "news_id_sha256": "65e2f1bb37c046d9d925b030080ab1d92dc2586bfd582492f8f83bdc2a8f09ab",
+   "impression_id_sha256": "f0b1dd83bad5e1857415f56ced18ebc10414e3fc51da5a18743d1ea62ec86d6e",
+   "artifacts": {
+    "checkpoints/card-008/inputs/news-ids.json": "30b6028431d3ca6930aab49ae5290422c5c15854768edc176349946c77474c15",
+    "checkpoints/card-008/inputs/news.npy": "3762c5614e666fa2e9ebb639a8607044720b142d8d0d9cdfb676a75e81550750",
+    "checkpoints/card-008/inputs/queries.json": "a94ff4f366c24b2fd531eb3994f9f3291e0b3ec78b3c39e66a88d8f48d7b3d8b",
+    "checkpoints/card-008/inputs/queries.npy": "358c97c9498a7bc81c428ed27635e882e5546ed5f705c3fa4731fc37547e6170"
+   }
+  },
+  "order": [
+   "HNSWFlat",
+   "IVFPQ",
+   "Flat"
+  ],
+  "timings_id_sha256": "32625ed4c9125b0164ad1e897f0544dfb04696bf6387aca274ba05cc963f99d0",
+  "timing_count": 1024,
+  "warmup": 128,
+  "threads": 1,
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12800HX",
+  "faiss_version": "1.16.0",
+  "methods": {
+   "HNSWFlat": {
+    "train_seconds": 0.0,
+    "add_seconds": 0.7055607,
+    "bytes": 8889314,
+    "p50_us": 88.3,
+    "p95_us": 127.98499999999999,
+    "queries": 31393,
+    "nonzero": 30592,
+    "zero": 801,
+    "boundary_tied": 633,
+    "boundary_crossed": 330,
+    "overlap_all": {
+     "queries": 30592,
+     "intersection": 2649049,
+     "overlap": 0.8659286741631799
+    },
+    "overlap_without_ties": {
+     "queries": 29959,
+     "intersection": 2593655,
+     "overlap": 0.8657348376114022
+    },
+    "overlap_without_crossing": {
+     "queries": 30262,
+     "intersection": 2620015,
+     "overlap": 0.8657772123455159
+    },
+    "missing": 0,
+    "clicks": 48488,
+    "covered": 30199,
+    "hits": 1450,
+    "recall": 0.029904306220095694,
+    "coverage": 0.6228138920970137,
+    "conditional_recall": 0.04801483492830889
+   },
+   "IVFPQ": {
+    "train_seconds": 1.495464,
+    "add_seconds": 0.102074,
+    "bytes": 351924,
+    "p50_us": 35.5,
+    "p95_us": 43.6,
+    "queries": 31393,
+    "nonzero": 30592,
+    "zero": 801,
+    "boundary_tied": 633,
+    "boundary_crossed": 330,
+    "overlap_all": {
+     "queries": 30592,
+     "intersection": 1799450,
+     "overlap": 0.5882093357740585
+    },
+    "overlap_without_ties": {
+     "queries": 29959,
+     "intersection": 1763660,
+     "overlap": 0.5886912113221403
+    },
+    "overlap_without_crossing": {
+     "queries": 30262,
+     "intersection": 1780944,
+     "overlap": 0.5885083603198731
+    },
+    "missing": 0,
+    "clicks": 48488,
+    "covered": 30199,
+    "hits": 1640,
+    "recall": 0.03382280151790134,
+    "coverage": 0.6228138920970137,
+    "conditional_recall": 0.0543064339878804
+   },
+   "Flat": {
+    "train_seconds": 0.0,
+    "add_seconds": 0.0010058,
+    "bytes": 4309037,
+    "p50_us": 128.65,
+    "p95_us": 206.07999999999996,
+    "queries": 31393,
+    "nonzero": 30592,
+    "zero": 801,
+    "boundary_tied": 633,
+    "boundary_crossed": 330,
+    "overlap_all": {
+     "queries": 30592,
+     "intersection": 3059200,
+     "overlap": 1.0
+    },
+    "overlap_without_ties": {
+     "queries": 29959,
+     "intersection": 2995900,
+     "overlap": 1.0
+    },
+    "overlap_without_crossing": {
+     "queries": 30262,
+     "intersection": 3026200,
+     "overlap": 1.0
+    },
+    "missing": 0,
+    "clicks": 48488,
+    "covered": 30199,
+    "hits": 1528,
+    "recall": 0.03151295165814222,
+    "coverage": 0.6228138920970137,
+    "conditional_recall": 0.05059770191065929
+   }
+  },
+  "artifacts": {
+   "checkpoints/card-008/s1/Flat.faiss": "fe814cf2cd323a4958305a0ee20c02f8e8dfd3a50758642c1806feac8407a90d",
+   "checkpoints/card-008/s1/HNSWFlat.faiss": "d94e6738a382360601a3f7438b3a4aaff20dfb91d3e09568768599120dafcca5",
+   "checkpoints/card-008/s1/IVFPQ.faiss": "67a92f6f5d92aadfb9aea6d40e39f6911bf25de70327668e9277a4beab6b3ec1",
+   "checkpoints/card-008/s1/query-quality.json": "cdd19f171e395750ae66bf88b913154e6ea7d8e3da91e5340ebb4e83d772ef41",
+   "checkpoints/card-008/s1/timings.json": "2398938895d6bd6f7b12b8adfda6e46386f208efd72f19ddf0574712f0129ec9"
+  }
+ }
+}

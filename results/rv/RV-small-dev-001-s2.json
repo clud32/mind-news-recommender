@@ -1,0 +1,309 @@
+{
+ "_meta": {
+  "kind": "RV",
+  "version": "RV-small-dev-001-s2",
+  "commit": "05dc9efd057ccac7c670525bdfb0ed3e5477ec0e",
+  "dirty": false,
+  "time": "2026-11-25T05:13:01+08:00",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "config": "configs/mind-final-v0.1.json",
+  "config_sha256": "ea007a3848f63a97d29dcef29cb45cd7de265a69f378f15fff9bd3ef82a1f4b0",
+  "seed": 2,
+  "payload_sha256": "c39c508042f72e386b05dbd18096c437ffef7b5d5f30e31542c0fcdde4883c4b"
+ },
+ "payload": {
+  "data": {
+   "version": "MIND-small-train-dev-v0.1",
+   "release": "Recommenders/MIND@2115068f457b577f93a268fffe22373e45727d89",
+   "equivalence": "Microsoft-linked release and Recommenders TSV equivalence pending validation (DEC-002)",
+   "manifest": "data/MANIFEST.sha256",
+   "manifest_sha256": "0934d7b79b9d24b710f81a383165228a48e102d2e0842e5d26552305116fa262",
+   "tsv": {
+    "data/train/behaviors.tsv": "a424547c8fa17c9ea4879c2110221c2b2f2709f4f7615ede0b0d8e4765158658",
+    "data/train/news.tsv": "cd49d7da275e9c405f627d75a0de9d4ec6ad43ff8a8db5d23a447591676e09d6",
+    "data/dev/behaviors.tsv": "b6c460e33b1a8693252ded6e626da7d3ccf78920eea2ec11889020bb7d8443ef",
+    "data/dev/news.tsv": "e5d144667558c449d16084fe6bfa01940c2f5d5785ea9f9110292bc3b94eb822"
+   },
+   "train_behaviors": "data/train/behaviors.tsv",
+   "train_news": "data/train/news.tsv",
+   "dev_behaviors": "data/dev/behaviors.tsv",
+   "dev_news": "data/dev/news.tsv"
+  },
+  "references": {
+   "RV-data-profile": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51",
+   "RV-two-tower-s0": "59e0183f0216447131a732cf1349c7052ba9fec350af45b1eda4523b4535283b",
+   "RV-two-tower-s1": "4fe8eac67e2ec213f4de2afb35ca05b0a8bc2294425eaa05f3483c46c0e4e3e5",
+   "RV-two-tower-s2": "14617ab2c2adc3d5340c85fe1e98c625cd20d851615887cf6ea5c98782ec408b",
+   "RV-din-s0": "dce971b6eeee998c4a95e4614c039969c5ae54662b3cf8d9a9cc189e85f4aae0",
+   "RV-din-s1": "ab6eac5a54e98d542d4f83620567239b0b3037375a89787c8cd9c5e7967bd0e1",
+   "RV-din-s2": "a7a858cb5998a9d576abe6c3b65794d453f11e15f0e43ac38647cd2aaabfe0ca",
+   "RV-faiss-s0": "26a9509c9eb8afb8653ee93d6f55571b8a9bec3b04e548c23c39d22546dd249b",
+   "RV-faiss-s1": "7e735092f8b08547bbe7ce86751f67bef1e2fbc9ace65a0a12bdca88d1e78693",
+   "RV-faiss-s2": "4800161b1178e35ae723c8e1b8197a6f0e7cddad1696f8ccef2a440b61ab9baa",
+   "RV-evaluation-audit-s0": "e24a4d34704b2ebfd7125c1d624f2c015922502ccfda8856d7160b9491cf6989",
+   "RV-evaluation-audit-s1": "d3e874976b9c58a690ad124e2e290ecef46f9f4ed1fb84741a5ba381d412094c",
+   "RV-evaluation-audit-s2": "fdbe394961b82c10315b2ddb2db165d5efff561d22b0a431164c4b32bec1f1c3"
+  },
+  "inputs": {
+   "checkpoints/card-004/s0/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+   "checkpoints/card-004/s0/model.pt": "f8f814af119164bc4ab3f2f20240505a676b998ff1e2a7a405537591ac3fcb75",
+   "checkpoints/card-004/s1/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+   "checkpoints/card-004/s1/model.pt": "0c4caad09dadcaa4691208309bd9c3c10dc64f06868de531c136bd3946f56512",
+   "checkpoints/card-004/s2/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+   "checkpoints/card-004/s2/model.pt": "6e342bd281c188a4242285ddd4a5c9806417bfecff97f7635e2c9d9d1bb47850",
+   "checkpoints/card-009/s0.pt": "965eead03030c59ae4ee0cb2610b884ef87a0bf678b5b82bdd5be2ca952044a5",
+   "checkpoints/card-009/s1.pt": "786c4a970306504492513ef2b9a48b490f1bdb22c8e7f8dfb2bc53bea8930daf",
+   "checkpoints/card-009/s2.pt": "7cfaebd8a4bb7571743d6d96c373950ba4c934fe1db05367a40f97d7e02f8453"
+  },
+  "evidence": {
+   "scratch/card-011/news-sources.json": "a326ef565e3cfa8f2ad34a45caab55d2491954a139cfc79859a7e45644106d35",
+   "scratch/card-011/dev-evidence.jsonl.gz": "ef07d2777c8306df076b61303a6780497e1b88d5ebf5cebed485bbd83a147bcb",
+   "scratch/card-011/first-dev-read.json": "36b29e3db28799e1c9d587e973af92adacfbbd06f724aa1f73692de2eb3de03e"
+  },
+  "news_sources": {
+   "train": 51282,
+   "dev_identical_reuse": 28460,
+   "dev": 13956
+  },
+  "train_rows_replayed": 156965,
+  "dev_rows": 73152,
+  "recall_destination": {
+   "outside": 134,
+   "missed": 108017,
+   "recalled": 3232
+  },
+  "microsoft": {
+   "metrics": {
+    "AUC": 0.6046193868871107,
+    "MRR": 0.28124880536814323,
+    "nDCG@5": 0.30131525633198897,
+    "nDCG@10": 0.36362279497092664
+   },
+   "absolute_errors": {
+    "AUC": 6.661338147750939e-16,
+    "MRR": 9.325873406851315e-15,
+    "nDCG@5": 3.8469227803261674e-14,
+    "nDCG@10": 1.0152989560197057e-13
+   },
+   "denominator": 73152
+  },
+  "bootstrap": {
+   "policy": {
+    "seed": 1101,
+    "replicates": 2000,
+    "method": "95% percentile, paired user cluster draws with replacement; retain exposure or click weights; average seed contrasts per unit first"
+   },
+   "comparisons": {
+    "official_tower_minus_popularity": {
+     "low": 0.010849490779885061,
+     "high": 0.01570152107244306,
+     "estimate": 0.013366649635097514,
+     "users": 50000,
+     "denominator": 73152,
+     "valid_replicates": 2000
+    },
+    "official_din_minus_popularity": {
+     "low": -0.0007029952734655722,
+     "high": 0.004272471380766386,
+     "estimate": 0.00180183756765649,
+     "users": 50000,
+     "denominator": 73152,
+     "valid_replicates": 2000
+    },
+    "recall_tower_minus_popularity": {
+     "low": -0.6041888280420841,
+     "high": -0.5972783588287499,
+     "estimate": -0.6008696719128294,
+     "users": 50000,
+     "denominator": 111383,
+     "valid_replicates": 2000
+    },
+    "official_tower_minus_recent_click": {
+     "low": 0.05670290638800094,
+     "high": 0.06128174156450433,
+     "estimate": 0.05898984153825235,
+     "users": 50000,
+     "denominator": 73152,
+     "valid_replicates": 2000
+    },
+    "official_din_minus_recent_click": {
+     "low": 0.045047550407398065,
+     "high": 0.049791670630803885,
+     "estimate": 0.04742502947081133,
+     "users": 50000,
+     "denominator": 73152,
+     "valid_replicates": 2000
+    },
+    "recall_tower_minus_recent_click": {
+     "low": -0.007988789438277176,
+     "high": -0.004533853480161015,
+     "estimate": -0.006200826577365189,
+     "users": 50000,
+     "denominator": 111383,
+     "valid_replicates": 2000
+    },
+    "official_din_minus_tower_s0": {
+     "low": -0.011810548034177472,
+     "high": -0.00834551633967323,
+     "estimate": -0.01004469581509131,
+     "users": 50000,
+     "denominator": 73152,
+     "valid_replicates": 2000
+    },
+    "pool_din_minus_tower_s0": {
+     "low": -0.016713965371925276,
+     "high": 0.0018448323284344717,
+     "estimate": -0.007640557247451053,
+     "users": 2941,
+     "denominator": 3064,
+     "valid_replicates": 2000
+    },
+    "end_din_minus_tower_s0": {
+     "low": -0.00035379240573233566,
+     "high": 0.0002485259756041628,
+     "estimate": -4.6666182475700555e-05,
+     "users": 50000,
+     "denominator": 73152,
+     "valid_replicates": 2000
+    }
+   }
+  },
+  "recent_fallbacks": {
+   "empty_history": 2214
+  },
+  "evaluation_device": "cuda",
+  "tfidf_fit_news": 16832,
+  "seed": 2,
+  "official": {
+   "popularity": {
+    "total": 73152,
+    "scoring_denominator": 73152,
+    "excluded": {
+     "empty_labels": 0,
+     "all_positive": 0,
+     "all_negative": 0
+    },
+    "metrics": {
+     "AUC": 0.5780475902955015,
+     "MRR": 0.26931125276328305,
+     "nDCG@5": 0.29059185692261175,
+     "nDCG@10": 0.3517762615880786
+    },
+    "status": "已评分"
+   },
+   "recent_click": {
+    "total": 73152,
+    "scoring_denominator": 73152,
+    "excluded": {
+     "empty_labels": 0,
+     "all_positive": 0,
+     "all_negative": 0
+    },
+    "metrics": {
+     "AUC": 0.5217702808683833,
+     "MRR": 0.23697382923607366,
+     "nDCG@5": 0.24333685218632908,
+     "nDCG@10": 0.30615306968495726
+    },
+    "status": "已评分"
+   },
+   "tower_s2": {
+    "total": 73152,
+    "scoring_denominator": 73152,
+    "excluded": {
+     "empty_labels": 0,
+     "all_positive": 0,
+     "all_negative": 0
+    },
+    "metrics": {
+     "AUC": 0.6070699803573532,
+     "MRR": 0.2847326707625683,
+     "nDCG@5": 0.3065150713175778,
+     "nDCG@10": 0.3670252423381792
+    },
+    "status": "已评分"
+   },
+   "tower_s0": {
+    "total": 73152,
+    "scoring_denominator": 73152,
+    "excluded": {
+     "empty_labels": 0,
+     "all_positive": 0,
+     "all_negative": 0
+    },
+    "metrics": {
+     "AUC": 0.6046193868871114,
+     "MRR": 0.28124880536815255,
+     "nDCG@5": 0.3013152563319505,
+     "nDCG@10": 0.3636227949708251
+    },
+    "status": "已评分"
+   },
+   "din_s2": {
+    "total": 73152,
+    "scoring_denominator": 73152,
+    "excluded": {
+     "empty_labels": 0,
+     "all_positive": 0,
+     "all_negative": 0
+    },
+    "metrics": {
+     "AUC": 0.5932132266137414,
+     "MRR": 0.2726031282636655,
+     "nDCG@5": 0.2907223493181084,
+     "nDCG@10": 0.3566116565918718
+    },
+    "status": "已评分"
+   }
+  },
+  "retrieval": {
+   "popularity": {
+    "clicks": 111383,
+    "covered": 111249,
+    "hits": 70109,
+    "recall": 0.6294407584640385,
+    "coverage": 0.9987969438783297,
+    "conditional_recall": 0.6301989231363877
+   },
+   "recent_click": {
+    "clicks": 111383,
+    "covered": 111249,
+    "hits": 3873,
+    "recall": 0.03477191312857438,
+    "coverage": 0.9987969438783297,
+    "conditional_recall": 0.03481379607906588
+   },
+   "tower_s2": {
+    "clicks": 111383,
+    "covered": 111249,
+    "hits": 3755,
+    "recall": 0.03371250549904384,
+    "coverage": 0.9987969438783297,
+    "conditional_recall": 0.03375311238752708
+   },
+   "tower_s0": {
+    "clicks": 111383,
+    "covered": 111249,
+    "hits": 3232,
+    "recall": 0.02901699541222628,
+    "coverage": 0.9987969438783297,
+    "conditional_recall": 0.02905194653435087
+   }
+  },
+  "rerank": {
+   "tower_s0": {
+    "pool_nDCG@10": 0.11696396126000332,
+    "end_nDCG@10": 0.0035944953984570057,
+    "pool_denominator": 3064,
+    "end_denominator": 73152
+   },
+   "din_s2": {
+    "pool_nDCG@10": 0.1243593802701832,
+    "end_nDCG@10": 0.003989152091199038,
+    "pool_denominator": 3064,
+    "end_denominator": 73152
+   }
+  }
+ }
+}

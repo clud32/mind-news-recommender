@@ -1,0 +1,221 @@
+{
+ "_meta": {
+  "kind": "RV",
+  "version": "RV-two-tower-hard-001-s1",
+  "commit": "baa2a52520831f722ba2e75a78baeaf33325214a",
+  "dirty": false,
+  "time": "2026-11-25T02:53:09+08:00",
+  "data_version": "MIND-small-train-dev-v0.1",
+  "lock": "LOCK-v0.1",
+  "config": "configs/mind-two-tower-hard-v0.1.json",
+  "config_sha256": "d124f99ba0af29e49b006a28fb70a7c6f2fa046f7978b0baa773f6aef8e187b7",
+  "seed": 1,
+  "payload_sha256": "f78334ba11998768ab6cd5244203086d0bd69189a9753462d2b10ceb329b2f92",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "epoch_seconds": [
+   8.952070300001651,
+   8.714696300012292,
+   7.760022500006016
+  ],
+  "evaluation_seconds": 8.591838799999095,
+  "elapsed_seconds": 46.095078700003796
+ },
+ "payload": {
+  "seed": 1,
+  "training": {
+   "positive_occurrences": 187856,
+   "epochs": [
+    {
+     "epoch": 1,
+     "loss": 7.3312343177961115,
+     "valid_rows": 187856,
+     "skipped_rows": 0,
+     "duplicate_target_columns": 87716,
+     "other_positive_columns": 74894,
+     "hard": {
+      "uses": 591376,
+      "rows": 167521,
+      "overlapping_items": 80931,
+      "overlapping_columns": 108990,
+      "loss": 1.2714847571682701
+     },
+     "batch_sha256": "8bcee4af6fd43f471fccdcc712680eab84e881f1c9eadb941c86e637b7e899ea"
+    },
+    {
+     "epoch": 2,
+     "loss": 6.541067232905717,
+     "valid_rows": 187856,
+     "skipped_rows": 0,
+     "duplicate_target_columns": 87766,
+     "other_positive_columns": 75380,
+     "hard": {
+      "uses": 591376,
+      "rows": 167521,
+      "overlapping_items": 81200,
+      "overlapping_columns": 109199,
+      "loss": 1.2712613648282294
+     },
+     "batch_sha256": "c71f2c2883c9cd1bd92ce1577f0e46029d06fe0788e12e33fda61cfd97a61202"
+    },
+    {
+     "epoch": 3,
+     "loss": 6.328409366658026,
+     "valid_rows": 187856,
+     "skipped_rows": 0,
+     "duplicate_target_columns": 87224,
+     "other_positive_columns": 75188,
+     "hard": {
+      "uses": 591376,
+      "rows": 167521,
+      "overlapping_items": 81140,
+      "overlapping_columns": 108531,
+      "loss": 1.2581072518066272
+     },
+     "batch_sha256": "933806345ba5716a032a891855cb98d372b6ee6687f3d46ccb3c24bb30178ec0"
+    }
+   ],
+   "q": {
+    "total": 187856,
+    "support": 6333,
+    "min": 1,
+    "max": 4316,
+    "counts_sha256": "a34de4bc6fd42065f8da47736f21b10b289bef84fac3a831102e492b005c742c",
+    "sum": 1.0
+   }
+  },
+  "metrics": {
+   "full": {
+    "official": {
+     "total": 31393,
+     "scoring_denominator": 31393,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.5372520975836229,
+      "MRR": 0.2371023213314889,
+      "nDCG@5": 0.24089275060004173,
+      "nDCG@10": 0.2992370715639609
+     },
+     "status": "已评分"
+    },
+    "retrieval": {
+     "clicks": 48488,
+     "covered": 48336,
+     "hits": 2296,
+     "recall": 0.04735192212506187,
+     "coverage": 0.9968652037617555,
+     "conditional_recall": 0.04750082754054949
+    }
+   },
+   "empty_history": {
+    "official": {
+     "total": 801,
+     "scoring_denominator": 801,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.5214587318654391,
+      "MRR": 0.21148677971880156,
+      "nDCG@5": 0.21223180542166417,
+      "nDCG@10": 0.2732257810544279
+     },
+     "status": "已评分"
+    },
+    "retrieval": {
+     "clicks": 1240,
+     "covered": 1238,
+     "hits": 2,
+     "recall": 0.0016129032258064516,
+     "coverage": 0.9983870967741936,
+     "conditional_recall": 0.0016155088852988692
+    }
+   },
+   "with_history": {
+    "official": {
+     "total": 30592,
+     "scoring_denominator": 30592,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.5376656202673408,
+      "MRR": 0.23777302114947257,
+      "nDCG@5": 0.2416431891816273,
+      "nDCG@10": 0.29991813340032725
+     },
+     "status": "已评分"
+    },
+    "retrieval": {
+     "clicks": 47248,
+     "covered": 47098,
+     "hits": 2294,
+     "recall": 0.04855231967490688,
+     "coverage": 0.9968252624449712,
+     "conditional_recall": 0.04870695146290713
+    }
+   },
+   "prefix": {
+    "official": {
+     "total": 256,
+     "scoring_denominator": 256,
+     "excluded": {
+      "empty_labels": 0,
+      "all_positive": 0,
+      "all_negative": 0
+     },
+     "metrics": {
+      "AUC": 0.6123636538921251,
+      "MRR": 0.29615749068318953,
+      "nDCG@5": 0.3148778975079592,
+      "nDCG@10": 0.37201107457272287
+     },
+     "status": "已评分"
+    },
+    "retrieval": {
+     "clicks": 391,
+     "covered": 389,
+     "hits": 100,
+     "recall": 0.2557544757033248,
+     "coverage": 0.9948849104859335,
+     "conditional_recall": 0.2570694087403599
+    }
+   }
+  },
+  "prefix_sample": {
+   "count": 256,
+   "start": "2019-11-13 20:36:26",
+   "end": "2019-11-13 21:04:13",
+   "id_sequence_sha256": "8659c967318bbdff10624f93c391853baa2d939605af59dce4523d1ec455d10b"
+  },
+  "references": {
+   "RV-data-profile": "d212f40f4f2fcfa550b8b1d3a9e163ababc5602323e59c025cc669c57c744b51",
+   "RV-g2-baselines-a": "38fd2757661591125864f299f11b02b082ff4959b176358b2f7a3b2339f32329",
+   "RV-g2-baselines-b": "38fd2757661591125864f299f11b02b082ff4959b176358b2f7a3b2339f32329",
+   "RV-two-tower-logq-s1": "1fc00d7146c978f18adb3fab302fe0cf58997ec90cbe474b7847ec8861c30690"
+  },
+  "train_impressions": 125572,
+  "fit_news_ids": 47367,
+  "vocab_size": 51537,
+  "initial_weight_sha256": "a8b5db3600aa1d0aeb8ccd9e029ba73249e4d0ffd73d1a6530f49eefcdeadf87",
+  "trained_weight_sha256": "5abc2ab4a84d33aa594e4ccc19700d7c73e4e8d33420c36a19922cf9daffa95f",
+  "artifacts": {
+   "checkpoints/card-006/s1/vocabulary.json": "b71b2f525ed7939d2b72db16ec46bd19204850365c951f67a4a5bb3251d3bc6b",
+   "checkpoints/card-006/s1/model.pt": "24e5fc53b6dcbdacaa74a9ae2497988e122138a4554d07bc2058c736dd5ef6a2"
+  },
+  "base_config_sha256": "16af7e1b2345f80d6bde7ee51e086c19bb9c1f57885e44b4d13237f893072db0",
+  "sampler_reference_sha256": "a3e306c0c1f70adda39e9de9883bb64caab6dd4a8bfe18f23f7d562f88e16e23",
+  "mining_artifacts": {
+   "checkpoints/card-006/hard-negatives.jsonl": "0314ddab09893d597ffb245d9d65e2ddb433085552ecba4981ed378504c6eda6",
+   "checkpoints/card-006/mining-audit.json": "0e34744dc75eef5ee5de55b267e9a2ca9c40b3c73faf8aba5a7aaab4bb32fc72"
+  },
+  "logq_config_sha256": "8a50dbb9bbb91b54db4522f9dfebb432ed2cd96090bbad224245b1d7e9f29fa2"
+ }
+}
