@@ -156,7 +156,7 @@
  "files": {
   ".gitattributes": "79e5ab6522b504d80a4de01c5ca5da120f50ec3633ca8d7d1842e2ee55900922",
   ".gitignore": "77b77e06418458475818dbe7345857ab986a0189e611bbdfd3cf2a1eff238b59",
-  "README.md": "3f651c8181ee211a83ae1a8a23e98ee9822c0971f1eccc57c00d5306f7763d0c",
+  "README.md": "3a170bf24564d1f40354dd8f8deba6cf868c81121847db1bc2d63f104f8fdb39",
   "configs/mind-baselines-smoke-v0.1.json": "667e1c8aaa331e964b9b0af11248cc8544c018f1266a60429ad9c3a5ddef75d9",
   "configs/mind-din-v0.1.json": "2d24a27e3d2b5d0f3bea8bd28cdca0ff0a0540da4b479c0cc39c46511ae809f2",
   "configs/mind-evaluation-audit-v0.1.json": "8995a3428cc0cb12061fc366bacbb7c80ba8c9ad5d846e304b9995c49b716b1f",
