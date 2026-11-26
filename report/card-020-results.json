@@ -1,0 +1,352 @@
+{
+  "experiment": "CARD-020",
+  "scope": "G3 historical replay; independent temporal validation pending",
+  "dataset": "MIND-small train/dev",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "top_k": 100,
+  "lookback_hours": 24,
+  "heat_half_life_hours": 1,
+  "heat_weight": 0.75,
+  "development": {
+    "denominators": {
+      "exposures": 31393,
+      "clicks": 48488,
+      "visible": 48336,
+      "valid": 31393
+    },
+    "means": {
+      "H": {
+        "hits": 23735,
+        "recall": 0.4895025573337733,
+        "conditional_recall": 0.49104187355180406,
+        "ndcg10": 0.05304777289274596
+      },
+      "DH": {
+        "hits": 24822.666666666668,
+        "recall": 0.5119342242754221,
+        "conditional_recall": 0.5135440803266027,
+        "ndcg10": 0.0612278695377608
+      },
+      "DH-decay-1h": {
+        "hits": 36499.333333333336,
+        "recall": 0.752749821261618,
+        "conditional_recall": 0.7551169590643275,
+        "ndcg10": 0.22657165828925405
+      },
+      "DH-decay-3h": {
+        "hits": 33906.333333333336,
+        "recall": 0.6992726722763021,
+        "conditional_recall": 0.7014716429438376,
+        "ndcg10": 0.180629516373697
+      },
+      "DH-decay-6h": {
+        "hits": 31328.333333333332,
+        "recall": 0.6461048781829181,
+        "conditional_recall": 0.6481366545294053,
+        "ndcg10": 0.14358306063039147
+      },
+      "DH-decay-12h": {
+        "hits": 28789.333333333332,
+        "recall": 0.5937414068085575,
+        "conditional_recall": 0.5956085181507227,
+        "ndcg10": 0.10817313332591787
+      }
+    },
+    "per_seed": {
+      "0": {
+        "H": {
+          "hits": 23735,
+          "recall": 0.4895025573337733,
+          "conditional_recall": 0.49104187355180406,
+          "ndcg10": 0.05304777289274596
+        },
+        "DH": {
+          "hits": 24865,
+          "recall": 0.5128072925259858,
+          "conditional_recall": 0.5144198940748097,
+          "ndcg10": 0.06134748047161132
+        },
+        "DH-decay-1h": {
+          "hits": 36552,
+          "recall": 0.7538360006599572,
+          "conditional_recall": 0.7562065541211519,
+          "ndcg10": 0.22683100975840081
+        },
+        "DH-decay-3h": {
+          "hits": 33907,
+          "recall": 0.6992864213826101,
+          "conditional_recall": 0.701485435286329,
+          "ndcg10": 0.18090276284775328
+        },
+        "DH-decay-6h": {
+          "hits": 31340,
+          "recall": 0.6463454875433097,
+          "conditional_recall": 0.6483780205230056,
+          "ndcg10": 0.14380792801810816
+        },
+        "DH-decay-12h": {
+          "hits": 28794,
+          "recall": 0.5938376505527141,
+          "conditional_recall": 0.5957050645481629,
+          "ndcg10": 0.1085142737323626
+        }
+      },
+      "1": {
+        "H": {
+          "hits": 23735,
+          "recall": 0.4895025573337733,
+          "conditional_recall": 0.49104187355180406,
+          "ndcg10": 0.05304777289274596
+        },
+        "DH": {
+          "hits": 24788,
+          "recall": 0.5112192707474014,
+          "conditional_recall": 0.5128268785170473,
+          "ndcg10": 0.06060677007827985
+        },
+        "DH-decay-1h": {
+          "hits": 36505,
+          "recall": 0.7528666886652368,
+          "conditional_recall": 0.7552341939755048,
+          "ndcg10": 0.22581946866596014
+        },
+        "DH-decay-3h": {
+          "hits": 33949,
+          "recall": 0.7001526150800198,
+          "conditional_recall": 0.7023543528632903,
+          "ndcg10": 0.1801604590723595
+        },
+        "DH-decay-6h": {
+          "hits": 31404,
+          "recall": 0.6476654017488863,
+          "conditional_recall": 0.6497020854021847,
+          "ndcg10": 0.14279654449934123
+        },
+        "DH-decay-12h": {
+          "hits": 28831,
+          "recall": 0.5946007259528131,
+          "conditional_recall": 0.5964705395564383,
+          "ndcg10": 0.10736178816585182
+        }
+      },
+      "2": {
+        "H": {
+          "hits": 23735,
+          "recall": 0.4895025573337733,
+          "conditional_recall": 0.49104187355180406,
+          "ndcg10": 0.05304777289274596
+        },
+        "DH": {
+          "hits": 24815,
+          "recall": 0.5117761095528791,
+          "conditional_recall": 0.513385468387951,
+          "ndcg10": 0.061729358063391214
+        },
+        "DH-decay-1h": {
+          "hits": 36441,
+          "recall": 0.7515467744596601,
+          "conditional_recall": 0.7539101290963257,
+          "ndcg10": 0.22706449644340118
+        },
+        "DH-decay-3h": {
+          "hits": 33863,
+          "recall": 0.6983789803662762,
+          "conditional_recall": 0.7005751406818934,
+          "ndcg10": 0.18082532720097821
+        },
+        "DH-decay-6h": {
+          "hits": 31241,
+          "recall": 0.6443037452565583,
+          "conditional_recall": 0.6463298576630255,
+          "ndcg10": 0.144144709373725
+        },
+        "DH-decay-12h": {
+          "hits": 28743,
+          "recall": 0.5927858439201452,
+          "conditional_recall": 0.5946499503475671,
+          "ndcg10": 0.10864333807953919
+        }
+      }
+    }
+  },
+  "historical": {
+    "denominators": {
+      "exposures": 73152,
+      "clicks": 111383,
+      "visible": 111249,
+      "valid": 73152
+    },
+    "means": {
+      "H": {
+        "hits": 70109,
+        "recall": 0.6294407584640385,
+        "conditional_recall": 0.6301989231363877,
+        "ndcg10": 0.1650611155408742
+      },
+      "DH": {
+        "hits": 72539,
+        "recall": 0.6512573732077607,
+        "conditional_recall": 0.6520418161062123,
+        "ndcg10": 0.17151517370414637
+      },
+      "H-decay": {
+        "hits": 91091,
+        "recall": 0.8178177998437822,
+        "conditional_recall": 0.8188028656437362,
+        "ndcg10": 0.27359683966024534
+      },
+      "DH-decay": {
+        "hits": 92564.33333333333,
+        "recall": 0.8310454318283161,
+        "conditional_recall": 0.8320464303798986,
+        "ndcg10": 0.28617785518299454
+      }
+    },
+    "per_seed": {
+      "0": {
+        "H": {
+          "hits": 70109,
+          "recall": 0.6294407584640385,
+          "conditional_recall": 0.6301989231363877,
+          "ndcg10": 0.1650611155408742
+        },
+        "DH": {
+          "hits": 72488,
+          "recall": 0.6507994936390652,
+          "conditional_recall": 0.6515833850191912,
+          "ndcg10": 0.172030632854517
+        },
+        "H-decay": {
+          "hits": 91091,
+          "recall": 0.8178177998437822,
+          "conditional_recall": 0.8188028656437362,
+          "ndcg10": 0.27359683966024534
+        },
+        "DH-decay": {
+          "hits": 92563,
+          "recall": 0.8310334611206378,
+          "conditional_recall": 0.8320344452534405,
+          "ndcg10": 0.2858464908913546
+        }
+      },
+      "1": {
+        "H": {
+          "hits": 70109,
+          "recall": 0.6294407584640385,
+          "conditional_recall": 0.6301989231363877,
+          "ndcg10": 0.1650611155408742
+        },
+        "DH": {
+          "hits": 72721,
+          "recall": 0.6528913748058501,
+          "conditional_recall": 0.6536777858677382,
+          "ndcg10": 0.17195182177935323
+        },
+        "H-decay": {
+          "hits": 91091,
+          "recall": 0.8178177998437822,
+          "conditional_recall": 0.8188028656437362,
+          "ndcg10": 0.27359683966024534
+        },
+        "DH-decay": {
+          "hits": 92583,
+          "recall": 0.8312130217358125,
+          "conditional_recall": 0.8322142221503115,
+          "ndcg10": 0.28607597786588335
+        }
+      },
+      "2": {
+        "H": {
+          "hits": 70109,
+          "recall": 0.6294407584640385,
+          "conditional_recall": 0.6301989231363877,
+          "ndcg10": 0.1650611155408742
+        },
+        "DH": {
+          "hits": 72408,
+          "recall": 0.6500812511783666,
+          "conditional_recall": 0.6508642774317073,
+          "ndcg10": 0.1705630664785689
+        },
+        "H-decay": {
+          "hits": 91091,
+          "recall": 0.8178177998437822,
+          "conditional_recall": 0.8188028656437362,
+          "ndcg10": 0.27359683966024534
+        },
+        "DH-decay": {
+          "hits": 92547,
+          "recall": 0.830889812628498,
+          "conditional_recall": 0.8318906237359437,
+          "ndcg10": 0.2866110967917457
+        }
+      }
+    }
+  },
+  "paired_bootstrap": {
+    "unit": "user",
+    "seed": 1101,
+    "resamples": 2000,
+    "confidence_level": 0.95,
+    "contrasts": {
+      "DH-decay-DH": {
+        "recall": {
+          "estimate": 0.1797880586205555,
+          "low": 0.17742436480151816,
+          "high": 0.18230015079515363,
+          "denominator": 111383,
+          "users": 50000,
+          "valid_replicates": 2000
+        },
+        "ndcg10": {
+          "estimate": 0.11466268147884819,
+          "low": 0.1132416370997189,
+          "high": 0.11608967094334295,
+          "denominator": 73152,
+          "users": 50000,
+          "valid_replicates": 2000
+        }
+      },
+      "H-decay-H": {
+        "recall": {
+          "estimate": 0.18837704137974376,
+          "low": 0.18583648785519755,
+          "high": 0.19101522059717452,
+          "denominator": 111383,
+          "users": 50000,
+          "valid_replicates": 2000
+        },
+        "ndcg10": {
+          "estimate": 0.10853572411937118,
+          "low": 0.1069575128313392,
+          "high": 0.11004841467640629,
+          "denominator": 73152,
+          "users": 50000,
+          "valid_replicates": 2000
+        }
+      },
+      "DH-decay-H-decay": {
+        "recall": {
+          "estimate": 0.013227631984533845,
+          "low": 0.012356542099841758,
+          "high": 0.01410148738332517,
+          "denominator": 111383,
+          "users": 50000,
+          "valid_replicates": 2000
+        },
+        "ndcg10": {
+          "estimate": 0.012581015522749208,
+          "low": 0.01172554671342506,
+          "high": 0.013461550942439676,
+          "denominator": 73152,
+          "users": 50000,
+          "valid_replicates": 2000
+        }
+      }
+    }
+  }
+}

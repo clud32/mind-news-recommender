@@ -156,7 +156,7 @@
  "files": {
   ".gitattributes": "79e5ab6522b504d80a4de01c5ca5da120f50ec3633ca8d7d1842e2ee55900922",
   ".gitignore": "77b77e06418458475818dbe7345857ab986a0189e611bbdfd3cf2a1eff238b59",
-  "README.md": "3a170bf24564d1f40354dd8f8deba6cf868c81121847db1bc2d63f104f8fdb39",
+  "README.md": "6b5d822b4b4050055351f8062598bd2cb98cc223edd811157c24cbcebaf4f7ff",
   "configs/mind-baselines-smoke-v0.1.json": "667e1c8aaa331e964b9b0af11248cc8544c018f1266a60429ad9c3a5ddef75d9",
   "configs/mind-din-v0.1.json": "2d24a27e3d2b5d0f3bea8bd28cdca0ff0a0540da4b479c0cc39c46511ae809f2",
   "configs/mind-evaluation-audit-v0.1.json": "8995a3428cc0cb12061fc366bacbb7c80ba8c9ad5d846e304b9995c49b716b1f",
@@ -168,6 +168,8 @@
   "configs/mind-two-tower-logq-v0.1.json": "8a50dbb9bbb91b54db4522f9dfebb432ed2cd96090bbad224245b1d7e9f29fa2",
   "configs/mind-two-tower-v0.1.json": "16af7e1b2345f80d6bde7ee51e086c19bb9c1f57885e44b4d13237f893072db0",
   "data/MANIFEST.sha256": "0934d7b79b9d24b710f81a383165228a48e102d2e0842e5d26552305116fa262",
+  "report/card-020-results.json": "18f1517648a0273b3b0f684a66f17c40ec7038da428ed4b9f5570543f32e4fc5",
+  "report/card-020.md": "d4d6c9d7c462a4b268e3d6c30a0057a18c12408ffd8c4600cfa7f2e270a0cde5",
   "report/g3-results.tex": "af3a06be400cd64ed9b371cd4ed546e9f9c1ccc95b137f5314e1d7d42290caa0",
   "report/generated/macros.tex": "be2771827d616484fa4c5ee056b1a9f968b5aa913e225d922a59b124ab6eca68",
   "requirements.lock": "3c2abb07a28f7cd15a0600b48bd57e968f881f414509db80fdea7c9d5e25d104",
