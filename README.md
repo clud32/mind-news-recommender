@@ -2,6 +2,17 @@
 
 用用户点击历史和新闻文本评估新闻推荐。在 MIND-small 上回放全库时序召回，在 MIND-large 上训练并评测给定候选的曝光内排序。
 
+## MIND-large 官方测试首测
+
+在 MIND News Recommendation Competition 的 **Official Test** 阶段，对锁定的 BGE 排序器（种子 2）提交已核验的候选排序。提交包覆盖 **2,370,727 条测试曝光**，由 Codabench 使用隐藏点击标签计分。
+
+| 结果 | AUC | MRR | nDCG@5 | nDCG@10 |
+| --- | ---: | ---: | ---: | ---: |
+| 本项目官方首测 | **0.6440** | 0.3180 | 0.3421 | 0.3983 |
+| 同阶段榜首参照（微软 2026-11-01 快照） | 0.7530 | 0.4070 | 0.4462 | 0.4979 |
+
+这是本项目的首份官方分数，AUC 距同阶段榜首参照 **0.1090**。模型在开发集上冻结，官方成绩用于后续优化对照。官方评分衡量曝光内候选排序。 [Official Test](https://www.codabench.org/competitions/13967/#/results-tab) · [微软同阶段榜单快照](https://github.com/msnews/msnews.github.io/blob/master/assets/data/leaderboard_sources/codabench_13967.csv-export.json)
+
 ## MIND-large 开发集结果
 
 在 **2,232,748 条 train 曝光**上训练，在 **376,471 条 dev 曝光**的完整原始候选上评分。BGE 文本向量保持冻结，排序器学习候选与用户点击历史的匹配以及时点可见热度。四项开发指标与微软评分器对齐。
@@ -13,7 +24,7 @@
 | BGE 排序器（三种子均值） | 0.63093 | 0.31077 | 0.33837 | 0.39684 |
 | BGE 排序器（锁定种子 2） | 0.63159 | 0.31151 | 0.33918 | 0.39764 |
 
-BGE 三种子平均 AUC 较均值双塔提高 **0.00269**。去掉个性化使 AUC 降 **0.07190**，去掉热度降 **0.00337**。按 dev AUC 锁定种子 2 后，已为 **2,370,727 条隐藏 Test 曝光**生成预测并逐行核验排名。Official Test 成绩待提交评分。 [数据版本](https://huggingface.co/datasets/Recommenders/MIND/tree/2115068f457b577f93a268fffe22373e45727d89) · [官方赛项](https://codalab.lisn.upsaclay.fr/competitions/420)
+BGE 三种子平均 AUC 较均值双塔提高 **0.00269**。去掉个性化使 AUC 降 **0.07190**，去掉热度降 **0.00337**。种子 2 按开发集 AUC 锁定后用于官方首测。 [数据版本](https://huggingface.co/datasets/Recommenders/MIND/tree/2115068f457b577f93a268fffe22373e45727d89) · [官方赛项](https://www.codabench.org/competitions/13967/#/results-tab)
 
 ## CARD-020 主要发现
 
